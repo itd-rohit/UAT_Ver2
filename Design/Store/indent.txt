@@ -1,0 +1,1 @@
+  SELECT CONCAT(locationid,'#',panel_id) locationid,location FROM st_locationmaster sl   INNER JOIN st_centerindentright    sc ON sl.locationid=sc.ToLoationID AND sc.FromLoationID=6   AND IndentType='SI' AND  sl.isactive=1    ORDER BY location  

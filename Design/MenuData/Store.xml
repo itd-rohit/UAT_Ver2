@@ -1,0 +1,352 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+<Menu>
+    <ID>158</ID>
+    <MenuName>Supplier Return</MenuName>
+    <Items>
+      <URLName>/Design/Store/VendorRetrunSearch.aspx</URLName>
+      <DispName>Supplier Return Search</DispName>
+      <MenuID>158</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Store/vendorreturn.aspx</URLName>
+      <DispName>Supplier Return</DispName>
+      <MenuID>158</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/store/VendorItemReplacement.aspx</URLName>
+      <DispName>Supplier Item Replacement</DispName>
+      <MenuID>158</MenuID>
+    </Items>
+  </Menu>
+  <Menu>
+    <ID>134</ID>
+    <MenuName>Equipment</MenuName>
+    <Items>
+      <URLName>/Design/Equipment/NewEquipment.aspx</URLName>
+      <DispName>Equipment(Machine) Master</DispName>
+      <MenuID>134</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Equipment/NewEquipmentTransfer.aspx</URLName>
+      <DispName>Equipment(Machine) Transfer</DispName>
+      <MenuID>134</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Equipment/MachineBreakDown.aspx</URLName>
+      <DispName>Machine Breakdown</DispName>
+      <MenuID>134</MenuID>
+    </Items>
+  </Menu>
+  <Menu>
+    <ID>138</ID>
+    <MenuName>Direct Sales</MenuName>
+    <Items>
+      <URLName>/Design/Store/DirectStockTransfer.aspx</URLName>
+      <DispName>Direct Stock Transfer</DispName>
+      <MenuID>138</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Store/DirectIssue.aspx</URLName>
+      <DispName>Direct Issue</DispName>
+      <MenuID>138</MenuID>
+    </Items>
+  </Menu>
+  <Menu>
+    <ID>135</ID>
+    <MenuName>Equipment</MenuName>
+    <Items>
+      <URLName>/Design/Equipment/Equipmentmaster.aspx</URLName>
+      <DispName>Equipment Master</DispName>
+      <MenuID>135</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Equipment/EquipmentTransafer.aspx</URLName>
+      <DispName>Equipment Transfer</DispName>
+      <MenuID>135</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Equipment/EqBrkSummary.aspx</URLName>
+      <DispName>Equipment Breakdown Summary</DispName>
+      <MenuID>135</MenuID>
+    </Items>
+  </Menu>
+  <Menu>
+    <ID>130</ID>
+    <MenuName>GRN</MenuName>
+    <Items>
+      <URLName>/Design/Store/DirectGRN.aspx</URLName>
+      <DispName>Direct GRN</DispName>
+      <MenuID>130</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Store/GRNfromPo.aspx</URLName>
+      <DispName>GRN From PO</DispName>
+      <MenuID>130</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Store/GRNReprint.aspx</URLName>
+      <DispName>GRN Status</DispName>
+      <MenuID>130</MenuID>
+    </Items>
+  </Menu>
+<Menu>
+    <ID>142</ID>
+    <MenuName>POD</MenuName>
+    <Items>
+      <URLName>/Design/Store/PODAccept.aspx</URLName>
+      <DispName>Accept POD</DispName>
+      <MenuID>142</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Store/PODEmployeeTagging.aspx</URLName>
+      <DispName>POD Employee Tag</DispName>
+      <MenuID>142</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Store/PODPayment.aspx</URLName>
+      <DispName>POD Payment</DispName>
+      <MenuID>142</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Store/GeneratePOD.aspx</URLName>
+      <DispName>POD Generate</DispName>
+      <MenuID>142</MenuID>
+    </Items>
+  </Menu>
+  <Menu>
+    <ID>7</ID>
+    <MenuName>Reports</MenuName>
+    <Items>
+      <URLName>/Design/Store/StockStatusReport.aspx</URLName>
+      <DispName>Stock Status Report</DispName>
+      <MenuID>7</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Store/consumereport.aspx</URLName>
+      <DispName>Consume Report</DispName>
+      <MenuID>7</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Store/issuereport.aspx</URLName>
+      <DispName>Issue Report</DispName>
+      <MenuID>7</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Store/StockExpiryReport.aspx</URLName>
+      <DispName>Stock Expiry Report</DispName>
+      <MenuID>7</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Store/LowStockReport.aspx</URLName>
+      <DispName>Low Stock Report</DispName>
+      <MenuID>7</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Store/PIReport.aspx</URLName>
+      <DispName>Indent Report</DispName>
+      <MenuID>7</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Store/GRNReport.aspx</URLName>
+      <DispName>GRN Report</DispName>
+      <MenuID>7</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Store/PurchaseOrderReport.aspx</URLName>
+      <DispName>PO Report</DispName>
+      <MenuID>7</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Store/StockLedgerReport_new.aspx</URLName>
+      <DispName>Stock Ledger Report</DispName>
+      <MenuID>7</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Store/StockAdjustmentReportNew.aspx</URLName>
+      <DispName>Stock Physical Verification Report</DispName>
+      <MenuID>7</MenuID>
+    </Items>
+  </Menu>
+  <Menu>
+    <ID>96</ID>
+    <MenuName>Purchase</MenuName>
+    <Items>
+      <URLName>/Design/Store/DirectPO.aspx</URLName>
+      <DispName>Direct Purchase Order</DispName>
+      <MenuID>96</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Store/POAgainstPI.aspx</URLName>
+      <DispName>Purchase Order (Against PI)</DispName>
+      <MenuID>96</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Store/POSearch.aspx</URLName>
+      <DispName>Purchase Order Search</DispName>
+      <MenuID>96</MenuID>
+    </Items>
+  </Menu>
+  <Menu>
+    <ID>95</ID>
+    <MenuName>Store Master</MenuName>
+    <Items>
+      <URLName>/Design/Store/Centermasterupdate.aspx</URLName>
+      <DispName>Store Location Address</DispName>
+      <MenuID>95</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Store/TransferQuotationRate.aspx</URLName>
+      <DispName>Transfer Quotation Rate</DispName>
+      <MenuID>95</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Store/AutoConsumemaster.aspx</URLName>
+      <DispName>Auto Consume Store Lab Item Mapping</DispName>
+      <MenuID>95</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Store/TransferQuotationRateMachineWise.aspx</URLName>
+      <DispName>Transfer Quotation Rate (Machine)</DispName>
+      <MenuID>95</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Store/StoreItemMaster.aspx</URLName>
+      <DispName>Store Item Master</DispName>
+      <MenuID>95</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Store/StoreLocationMaster.aspx</URLName>
+      <DispName>Store Location Master</DispName>
+      <MenuID>95</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Store/MappingStoreItemWithCentre.aspx</URLName>
+      <DispName>Mapping Location With Item</DispName>
+      <MenuID>95</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/store/CenterIndentRight.aspx</URLName>
+      <DispName>Location SI-Direct Receive Mapping</DispName>
+      <MenuID>95</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Store/VendorMaster.aspx</URLName>
+      <DispName>Supplier Master</DispName>
+      <MenuID>95</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Store/VendorQuotation.aspx</URLName>
+      <DispName>Supplier Quotation</DispName>
+      <MenuID>95</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Store/VendorQuotationComparison.aspx</URLName>
+      <DispName>Supplier Quotation Comparison</DispName>
+      <MenuID>95</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Store/LocationItemAvgCon.aspx</URLName>
+      <DispName>Item Average Consumption</DispName>
+      <MenuID>95</MenuID>
+    </Items>
+  </Menu>
+  <Menu>
+    <ID>98</ID>
+    <MenuName>Indent</MenuName>
+    <Items>
+      <URLName>/Design/Store/SendIssueItemreceiveStatus.aspx</URLName>
+      <DispName>Material Delivery Location Update</DispName>
+      <MenuID>98</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Store/SendIssueItemUpdateStatus.aspx</URLName>
+      <DispName>Material Delivery Logistic Update</DispName>
+      <MenuID>98</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Store/SendIssueItem.aspx</URLName>
+      <DispName>Material Dispatched</DispName>
+      <MenuID>98</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Store/CreateSalesIndent.aspx</URLName>
+      <DispName>Create Indent</DispName>
+      <MenuID>98</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Store/IndentRePrint.aspx</URLName>
+      <DispName>Indent Status and Approval</DispName>
+      <MenuID>98</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Store/IndentIssue.aspx</URLName>
+      <DispName>Stock Indent Search /Issue</DispName>
+      <MenuID>98</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Store/IndentReceive.aspx</URLName>
+      <DispName>Indent Receive</DispName>
+      <MenuID>98</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/store/BudgetIndent.aspx</URLName>
+      <DispName>Budget Indent</DispName>
+      <MenuID>98</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Store/IndentPendingManage.aspx</URLName>
+      <DispName>Pending Indent</DispName>
+      <MenuID>98</MenuID>
+    </Items>
+  </Menu>
+  <Menu>
+    <ID>99</ID>
+    <MenuName>Tools</MenuName>
+    <Items>
+      <URLName>/Design/store/manageapprovalstore.aspx</URLName>
+      <DispName>Store Approval Right</DispName>
+      <MenuID>99</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Store/StockPhysicalVerification.aspx</URLName>
+      <DispName>Stock Physical Verification</DispName>
+      <MenuID>99</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Store/consumeStoreItem.aspx</URLName>
+      <DispName>Consume Store Item</DispName>
+      <MenuID>99</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Store/PrintStockBarcode.aspx</URLName>
+      <DispName>Print Stock Barcode</DispName>
+      <MenuID>99</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Store/StoreItemMasterUpdate.aspx</URLName>
+      <DispName>Store Item Update</DispName>
+      <MenuID>99</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Store/StoreAutoIndent.aspx</URLName>
+      <DispName>Auto Indent</DispName>
+      <MenuID>99</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Store/Autoconusmestoredata.aspx</URLName>
+      <DispName>Auto Consume Store Item</DispName>
+      <MenuID>99</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Store/StorePageAccessControl.aspx</URLName>
+      <DispName>Store Page Access Control</DispName>
+      <MenuID>99</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Store/ImportStoreMaster.aspx</URLName>
+      <DispName>Import Store Master</DispName>
+      <MenuID>99</MenuID>
+    </Items>
+  </Menu>
+</NewDataSet>

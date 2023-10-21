@@ -1,0 +1,1 @@
+https://103.229.250.200/smpp/sendsms?username=idose&password=idose007&to=917906337987&from=ITDOSE&text=Dear MRS.DUMMY AKANKSHA, your Lab booking NO IS ITS1890. Thanks FOR choosing ITDose Infosystems Pvt. Ltd.  10-06-2023 13:40:41

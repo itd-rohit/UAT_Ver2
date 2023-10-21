@@ -1,0 +1,414 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Menu>
+    <ID>84</ID>
+    <MenuName>Accession</MenuName>
+    <Items>
+      <URLName>/Design/Lab/Lab_PrescriptionOPD.aspx</URLName>
+      <DispName>Work Order</DispName>
+      <MenuID>84</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Lab/Lab_PrescriptionOPDEditInfo.aspx</URLName>
+      <DispName>Edit Info</DispName>
+      <MenuID>84</MenuID>
+    </Items>
+  </Menu>
+  <Menu>
+    <ID>127</ID>
+    <MenuName>Sample Storage</MenuName>
+    <Items>
+      <URLName>/Design/SampleStorage/Storagetypemaster.aspx</URLName>
+      <DispName>Storage Type Master</DispName>
+      <MenuID>127</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/SampleStorage/StorageDevicemaster.aspx</URLName>
+      <DispName>Storage Device Master</DispName>
+      <MenuID>127</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/SampleStorage/Storagetraymaster.aspx</URLName>
+      <DispName>Storage Tray Master</DispName>
+      <MenuID>127</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/sampleStorage/sampleStorage.aspx</URLName>
+      <DispName>Sample Storage</DispName>
+      <MenuID>127</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/samplestorage/samplediscard.aspx</URLName>
+      <DispName>Sample Discard</DispName>
+      <MenuID>127</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/samplestorage/sampleissue.aspx</URLName>
+      <DispName>Sample Issue</DispName>
+      <MenuID>127</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/samplestorage/samplesearchinstore.aspx</URLName>
+      <DispName>Sample Search</DispName>
+      <MenuID>127</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/samplestorage/sampleissuereport.aspx</URLName>
+      <DispName>Sample Issue Report</DispName>
+      <MenuID>127</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/samplestorage/samplediscardreport.aspx</URLName>
+      <DispName>Sample Discard Report</DispName>
+      <MenuID>127</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/samplestorage/samplestoragereport.aspx</URLName>
+      <DispName>Sample Storage Report</DispName>
+      <MenuID>127</MenuID>
+    </Items>
+  </Menu>
+  <Menu>
+    <ID>121</ID>
+    <MenuName>Sample Management</MenuName>
+    <Items>
+      <URLName>/Design/Lab/SampleCollection.aspx</URLName>
+      <DispName>Sample  Collection</DispName>
+      <MenuID>121</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Lab/SendSample.aspx</URLName>
+      <DispName>Sample Transfer</DispName>
+      <MenuID>121</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Lab/LogisticSampleReceive.aspx</URLName>
+      <DispName>Logistic Receive</DispName>
+      <MenuID>121</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Lab/SRA.aspx</URLName>
+      <DispName>Sample Receive Area</DispName>
+      <MenuID>121</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Lab/SampleReceiveDepartment.aspx</URLName>
+      <DispName>Department Receive</DispName>
+      <MenuID>121</MenuID>
+    </Items>
+  </Menu>
+  <Menu>
+    <ID>124</ID>
+    <MenuName>Sample Processing</MenuName>
+    <Items>
+      <URLName>/Design/Lab/Worksheethistocyto.aspx</URLName>
+      <DispName>Work Sheet HistoCyto</DispName>
+      <MenuID>124</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Lab/MachineResultEntry.aspx</URLName>
+      <DispName>Result Entry</DispName>
+      <MenuID>124</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Lab/WorkSheet.aspx</URLName>
+      <DispName>Worksheet LabObservation Wise</DispName>
+      <MenuID>124</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Lab/WorksheetNew.aspx</URLName>
+      <DispName>Worksheet</DispName>
+      <MenuID>124</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Lab/microlabentry.aspx</URLName>
+      <DispName>Culture Microscopic and Plating</DispName>
+      <MenuID>124</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Lab/MachineResultEntry_culture.aspx</URLName>
+      <DispName>Result Entry Culture</DispName>
+      <MenuID>124</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/lab/histocytogrossing.aspx</URLName>
+      <DispName>HistoCyto Grossing and Sliding</DispName>
+      <MenuID>124</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/lab/machineResultEntry_histocyto.aspx</URLName>
+      <DispName>Result Entry HistoCyto</DispName>
+      <MenuID>124</MenuID>
+    </Items>
+  </Menu>
+  <Menu>
+    <ID>68</ID>
+    <MenuName>Dispatch</MenuName>
+    <Items>
+      <URLName>/Design/Lab/PatientLabSearch.aspx</URLName>
+      <DispName>Patient Lab Search</DispName>
+      <MenuID>68</MenuID>
+    </Items>
+  </Menu>
+  <Menu>
+    <ID>7</ID>
+    <MenuName>Reports</MenuName>
+    <Items>
+      <URLName>/Design/lab/PendingSampleReport.aspx</URLName>
+      <DispName>Pending Sample Report</DispName>
+      <MenuID>7</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/lab/SampleTransferReport.aspx</URLName>
+      <DispName>Sample Transfer Report</DispName>
+      <MenuID>7</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/lab/MachineWiseSampleLoadReport.aspx</URLName>
+      <DispName>Machine Wise Sample Load Report</DispName>
+      <MenuID>7</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Lab/TATReport.aspx</URLName>
+      <DispName>TAT Report</DispName>
+      <MenuID>7</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/EDP/OPD_Lab_Refund_Report.aspx</URLName>
+      <DispName>OPD Refund Report</DispName>
+      <MenuID>7</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Lab/EmailReport.aspx</URLName>
+      <DispName>Email Log Report</DispName>
+      <MenuID>7</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/lab/PatientLabSearchUnapprove.aspx</URLName>
+      <DispName>Amendment Report</DispName>
+      <MenuID>7</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/lab/DuplicatePatientEntryReport.aspx</URLName>
+      <DispName>Duplicate Patient Entry Report</DispName>
+      <MenuID>7</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Lab/AutoApprovalReport.aspx</URLName>
+      <DispName>Auto Approval Report</DispName>
+      <MenuID>7</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/opd/HomeVisitBoyReport.aspx</URLName>
+      <DispName>Delivery Boy Report</DispName>
+      <MenuID>7</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/lab/InfectionControlReport.aspx</URLName>
+      <DispName>Positive Value Report</DispName>
+      <MenuID>7</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/OPD/SampleCountReport.aspx</URLName>
+      <DispName>Sample Count Report</DispName>
+      <MenuID>7</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Lab/HomeCollectionReport.aspx</URLName>
+      <DispName>Home Collection Report</DispName>
+      <MenuID>7</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/OPD/CancelReport.aspx</URLName>
+      <DispName>Cancel Report</DispName>
+      <MenuID>7</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Lab/HomeCollectionReport.aspx</URLName>
+      <DispName>Field Boy Collection Report</DispName>
+      <MenuID>7</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Lab/BiopsyFormalinReport.aspx</URLName>
+      <DispName>Biopsy Report(Formalin)</DispName>
+      <MenuID>7</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/OPD/OPDOutstandingReport.aspx</URLName>
+      <DispName>Outstanding Report</DispName>
+      <MenuID>7</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/OPD/LabInvestigationAnalysisReport.aspx</URLName>
+      <DispName>Investigation Analysis Report</DispName>
+      <MenuID>7</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/OPD/CollectionReportNew.aspx</URLName>
+      <DispName>Collection Report User Wise</DispName>
+      <MenuID>7</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Lab/SampleRejectionReport.aspx</URLName>
+      <DispName>Sample Rejection Report</DispName>
+      <MenuID>7</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/OPD/SettlementReport.aspx</URLName>
+      <DispName>Settlement Report</DispName>
+      <MenuID>7</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Lab/Lab_ReportCumulative.aspx</URLName>
+      <DispName>Lab Report Cumulative</DispName>
+      <MenuID>7</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Lab/EmailLogReport.aspx</URLName>
+      <DispName>Discount Verification Email Log</DispName>
+      <MenuID>7</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Lab/DayWiseDiscountReport.aspx</URLName>
+      <DispName>Discount Report</DispName>
+      <MenuID>7</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Lab/NorthernRailwaysReport.aspx</URLName>
+      <DispName>Northern Railway Patient Report</DispName>
+      <MenuID>7</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Lab/CGHSPatientReport.aspx</URLName>
+      <DispName>CGHS Patient Report</DispName>
+      <MenuID>7</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Lab/SampleStatusReport.aspx</URLName>
+      <DispName>Sample Status Report</DispName>
+      <MenuID>7</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Lab/InfectionControlReportNew.aspx</URLName>
+      <DispName>Infection Control Custom Report</DispName>
+      <MenuID>7</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/LAB/SAMPLEREJECTIONREPORT.ASPX</URLName>
+      <DispName>Sample Rejection Report</DispName>
+      <MenuID>7</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Lab/SampleStatusReport.aspx</URLName>
+      <DispName>Pending Sample Status Report</DispName>
+      <MenuID>7</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Lab/RemoveLogisticTransactionReport.aspx</URLName>
+      <DispName>Remove Logistic Transaction Report</DispName>
+      <MenuID>7</MenuID>
+    </Items>
+  </Menu>
+  <Menu>
+    <ID>125</ID>
+    <MenuName>Reprint</MenuName>
+    <Items>
+      <URLName>/Design/Lab/PrePrintedBarcode.aspx</URLName>
+      <DispName>PrinteBarcode</DispName>
+      <MenuID>125</MenuID>
+    </Items>
+  </Menu>
+  <Menu>
+    <ID>114</ID>
+    <MenuName>Outsource</MenuName>
+    <Items>
+      <URLName>/Design/Lab/outSourcetesttootherlab.aspx</URLName>
+      <DispName>Outsource Test To Other Lab</DispName>
+      <MenuID>114</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Lab/OutSourceLabRateListMaster.aspx</URLName>
+      <DispName>Outsource Test Master</DispName>
+      <MenuID>114</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Lab/OutsourceLabMaster.aspx</URLName>
+      <DispName>OutSource Lab Master</DispName>
+      <MenuID>114</MenuID>
+    </Items>
+  </Menu>
+  <Menu>
+    <ID>76</ID>
+    <MenuName>Result Approval</MenuName>
+    <Items>
+      <URLName>/Design/Lab/testApprovalScreen.aspx</URLName>
+      <DispName>Test Approval Screen</DispName>
+      <MenuID>76</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Lab/MachineResultEntry.aspx</URLName>
+      <DispName>Result Entry</DispName>
+      <MenuID>76</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Lab/MachineResultEntry_culture.aspx</URLName>
+      <DispName>Result Entry Culture</DispName>
+      <MenuID>76</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/lab/machineResultEntry_histocyto.aspx</URLName>
+      <DispName>Result Entry HistoCyto</DispName>
+      <MenuID>76</MenuID>
+    </Items>
+  </Menu>
+  <Menu>
+    <ID>77</ID>
+    <MenuName>Master</MenuName>
+    <Items>
+      <URLName>/Design/Lab/InfectionControlMaster.aspx</URLName>
+      <DispName>Infection Control Master</DispName>
+      <MenuID>77</MenuID>
+    </Items>
+  </Menu>
+  <Menu>
+    <ID>80</ID>
+    <MenuName>Mail</MenuName>
+    <Items>
+      <URLName>/Design/Lab/MailStatus.aspx</URLName>
+      <DispName>Manual Bulk Email</DispName>
+      <MenuID>80</MenuID>
+    </Items>
+  </Menu>
+  <Menu>
+    <ID>83</ID>
+    <MenuName>Change Password</MenuName>
+    <Items>
+      <URLName>/Design/Employee/ChangePassword.aspx</URLName>
+      <DispName>Change Password</DispName>
+      <MenuID>83</MenuID>
+    </Items>
+  </Menu>
+  <Menu>
+    <ID>12</ID>
+    <MenuName>Collection</MenuName>
+    <Items>
+      <URLName>/Design/EDP/DiscountAfterBill.aspx</URLName>
+      <DispName>DiscountAfterBill</DispName>
+      <MenuID>12</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Lab/ManageOtherReferLab.aspx</URLName>
+      <DispName>Other Refer Lab Master</DispName>
+      <MenuID>12</MenuID>
+    </Items>
+  </Menu>
+  <Menu>
+    <ID>21</ID>
+    <MenuName>Laboratory</MenuName>
+    <Items>
+      <URLName>/Design/investigation/InvComments.aspx</URLName>
+      <DispName>Investigation Comment</DispName>
+      <MenuID>21</MenuID>
+    </Items>
+  </Menu>
+</NewDataSet>

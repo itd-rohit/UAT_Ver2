@@ -1,0 +1,1 @@
+https://103.229.250.200/smpp/sendsms?username=idose&password=idose007&to=917302331117&from=ITDOSE&text=Dear MR.VARUN GUPTA, your Lab booking NO IS ITS2060. Thanks FOR choosing ITDose Infosystems Pvt. Ltd.  15-07-2023 13:41:04

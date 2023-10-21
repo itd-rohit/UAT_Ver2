@@ -1,0 +1,81 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Menu>
+    <ID>7</ID>
+    <MenuName>Reports</MenuName>
+    <Items>
+      <URLName>/Design/opd/RefundReport.aspx</URLName>
+      <DispName>Refund Report</DispName>
+      <MenuID>7</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/OPD/UserBy_Discount_Report.aspx</URLName>
+      <DispName>UserBy_Discount_Report</DispName>
+      <MenuID>7</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/OPD/PatientInfo.aspx</URLName>
+      <DispName>Patient Information</DispName>
+      <MenuID>7</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/OPD/SampleCountReport.aspx</URLName>
+      <DispName>Sample Count Report</DispName>
+      <MenuID>7</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/OPD/ModeWiseCollectionReport.aspx</URLName>
+      <DispName>ModeWiseCollectionReport</DispName>
+      <MenuID>7</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/OPD/CancelReport.aspx</URLName>
+      <DispName>Cancel Report</DispName>
+      <MenuID>7</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/OPD/LabInvestigationAnalysisReport.aspx</URLName>
+      <DispName>Investigation Analysis Report</DispName>
+      <MenuID>7</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/OPD/CollectionReportNew.aspx</URLName>
+      <DispName>Collection Report User Wise</DispName>
+      <MenuID>7</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Sales/BusinessReportCumulative.aspx</URLName>
+      <DispName>Sales Analysis Report</DispName>
+      <MenuID>7</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/OPD/CustomerRegistrationReport.aspx</URLName>
+      <DispName>Customer Registration Report</DispName>
+      <MenuID>7</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/OPD/ServiceWiseCollectionReport.aspx</URLName>
+      <DispName>ServiceWise Collection Report</DispName>
+      <MenuID>7</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/OPD/BillWiseCollectionReport.aspx</URLName>
+      <DispName>BillWise Collection Report</DispName>
+      <MenuID>7</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/LAB/SAMPLEREJECTIONREPORT.ASPX</URLName>
+      <DispName>Sample Rejection Report</DispName>
+      <MenuID>7</MenuID>
+    </Items>
+  </Menu>
+  <Menu>
+    <ID>83</ID>
+    <MenuName>Change Password</MenuName>
+    <Items>
+      <URLName>/Design/Employee/ChangePassword.aspx</URLName>
+      <DispName>Change Password</DispName>
+      <MenuID>83</MenuID>
+    </Items>
+  </Menu>
+</NewDataSet>

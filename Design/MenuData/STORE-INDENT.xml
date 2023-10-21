@@ -1,0 +1,43 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Menu>
+    <ID>77</ID>
+    <MenuName>Master</MenuName>
+    <image>data:image/jpg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/4QA2RXhpZgAASUkqAAgAAAACAAEDBQABAAAAJgAAAAMDAQABAAAAAAAAAAAAAACghgEAj7EAAP/bAEMACAYGBwYFCAcHBwkJCAoMFA0MCwsMGRITDxQdGh8eHRocHCAkLicgIiwjHBwoNyksMDE0NDQfJzk9ODI8LjM0Mv/bAEMBCQkJDAsMGA0NGDIhHCEyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMv/AABEIABYAFgMBIgACEQEDEQH/xAAfAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgv/xAC1EAACAQMDAgQDBQUEBAAAAX0BAgMABBEFEiExQQYTUWEHInEUMoGRoQgjQrHBFVLR8CQzYnKCCQoWFxgZGiUmJygpKjQ1Njc4OTpDREVGR0hJSlNUVVZXWFlaY2RlZmdoaWpzdHV2d3h5eoOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4eLj5OXm5+jp6vHy8/T19vf4+fr/xAAfAQADAQEBAQEBAQEBAAAAAAAAAQIDBAUGBwgJCgv/xAC1EQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4+Tl5ufo6ery8/T19vf4+fr/2gAMAwEAAhEDEQA/APatXN+Ldf7OeJZtwyZOm3Bz2PtXNNda9fLdWcd/Yb0QJIVfBXcpKkHHpzwa1vFLObQRxXLWzFkYuikkqG5GB6jiuJ0DRzpFnLEt210SsWf9HKgbVK989c/pXLWw8HerKTSS6PT7jopVbLkSTd1uj0Lw7DqVvo0MOrXcV1dIMGZARuHbOerep70Vi+FNKlj1C91UXM6i6/1luH3Rs+R+8wejYGOOD6cUVdGsqkFJJ6kVKahJxuHiOVru5MargJ8hy3XBPPQ+tc6kLLdwzo8yyQMSoWbapJBB3BVG4YJ4NFFbvVamXU67w9dtFBJG0YJJ3ZDf/WooooA//9k=</image>
+    <Items>
+      <URLName>/Design/Employee/Registration/ChangePassword.aspx</URLName>
+      <DispName>Change Password</DispName>
+      <MenuID>77</MenuID>
+    </Items>
+  </Menu>
+  <Menu>
+    <ID>160</ID>
+    <MenuName>Store-Indent</MenuName>
+    <image>data:image/png;base64,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</image>
+    <Items>
+      <URLName>/Design/Store/CreateSalesIndent.aspx</URLName>
+      <DispName>Create Indent</DispName>
+      <MenuID>160</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Store/IndentRePrint.aspx</URLName>
+      <DispName>Indent Approval</DispName>
+      <MenuID>160</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Store/IndentReceive.aspx</URLName>
+      <DispName>Indent Receive</DispName>
+      <MenuID>160</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Store/IndentIssue.aspx</URLName>
+      <DispName>Store Indent search</DispName>
+      <MenuID>160</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Store/consumeStoreItem.aspx</URLName>
+      <DispName>Consume Indent</DispName>
+      <MenuID>160</MenuID>
+    </Items>
+  </Menu>
+</NewDataSet>

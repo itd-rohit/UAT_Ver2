@@ -1,0 +1,331 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ApplicationName" xml:space="preserve">
+    <value>/MDRC_LIVE</value>
+  </data>
+  <data name="BankCacheTimeOut" xml:space="preserve">
+    <value>60</value>
+  </data>
+  <data name="CityCacheTimeOut" xml:space="preserve">
+    <value>60</value>
+  </data>
+  <data name="ClientFullName" xml:space="preserve">
+    <value>DEMO LIS</value>
+  </data>
+  <data name="ClientLogo" xml:space="preserve">
+    <value>../App_Images/SHLlogo.png</value>
+  </data>
+  <data name="DefaultFooter" xml:space="preserve">
+    <value>~/Design/Centre/Image/ApolloHeader.jpg</value>
+  </data>
+  <data name="DefaultHeader" xml:space="preserve">
+    <value>~/Design/Centre/Image/ApolloFooter.jpg</value>
+  </data>
+  <data name="DocumentDriveIPAddress" xml:space="preserve">
+    <value>\\10.0.1.117\</value>
+  </data>
+  <data name="DocumentDriveName" xml:space="preserve">
+    <value>E</value>
+  </data>
+  <data name="DocumentFolderName" xml:space="preserve">
+    <value>LISDocument</value>
+  </data>
+  <data name="DocumentPath" xml:space="preserve">
+    <value>E:\\ClientDocument</value>
+  </data>
+  <data name="EmailURLLink" xml:space="preserve">
+    <value>http://uatlims.apollohl.in/ApolloLive/</value>
+  </data>
+  <data name="LabReportFormat" xml:space="preserve">
+    <value>Format 1</value>
+  </data>
+  <data name="LabReportURL" xml:space="preserve">
+    <value>PatientReceiptNew1.aspx</value>
+  </data>
+  <data name="LedgerReportDate" xml:space="preserve">
+    <value>Date</value>
+    <comment>SRADate,Date</comment>
+  </data>
+  <data name="LocalityCacheTimeOut" xml:space="preserve">
+    <value>60</value>
+  </data>
+  <data name="OldPatientLink" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="PanelInvoiceTDS" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="PatientReceiptFormat" xml:space="preserve">
+    <value>Format 1</value>
+  </data>
+  <data name="PatientReceiptURL" xml:space="preserve">
+    <value>PatientReceiptNew1.aspx</value>
+  </data>
+  <data name="PayTM" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ShowPatientPhoto" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="SRARequired" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="StateCacheTimeOut" xml:space="preserve">
+    <value>60</value>
+  </data>
+  <data name="BaseCurrencyID" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="BaseCurrencyNotation" xml:space="preserve">
+    <value>INR</value>
+  </data>
+  <data name="DefaultCountry" xml:space="preserve">
+    <value>INDIA</value>
+  </data>
+  <data name="CountryCacheTimeOut" xml:space="preserve">
+    <value>60</value>
+  </data>
+  <data name="CurrencyCacheTimeOut" xml:space="preserve">
+    <value>60</value>
+  </data>
+  <data name="ClientNameShowInApplication" xml:space="preserve">
+    <value>MDRC_LIVE</value>
+  </data>
+  <data name="LinkURL" xml:space="preserve">
+    <value>http://localhost/MDRC_LIVE</value>
+  </data>
+  <data name="ApplicationURLReportPathName" xml:space="preserve">
+    <value>MDRC_LIVE</value>
+    <comment>display in url</comment>
+  </data>
+  <data name="EmailDisplayName" xml:space="preserve">
+    <value>Itdose</value>
+  </data>
+  <data name="EmailID" xml:space="preserve">
+    <value>donotreply@itdoseinfo.com
+    </value>
+  </data>
+  <data name="EmailPassword" xml:space="preserve">
+    <value>donotreply@123456789
+    </value>
+  </data>
+  <data name="FromEmailid" xml:space="preserve">
+    <value>donotreply@itdoseinfo.com
+    </value>
+  </data>
+  <data name="HostName" xml:space="preserve">
+    <value>smtp.gmail.com</value>
+  </data>
+  <data name="LocalLink" xml:space="preserve">
+    <value>http://localhost/MDRC_LIVE</value>
+  </data>
+  <data name="LocalLinkApplicable" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Port" xml:space="preserve">
+    <value>587</value>
+    
+  </data>
+  <data name="RemoteLink" xml:space="preserve">
+    <value>http://localhost/MDRC_LIVE</value>
+  </data>
+  <data name="RemoteLinkApplicable" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ReportURL" xml:space="preserve">
+    <value>http://localhost/MDRC_LIVE</value>
+    <comment>Report Server URL</comment>
+  </data>
+  <data name="BaseCurrencyRound" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="HiQPdfSerialNumber" xml:space="preserve">
+    <value>RAwtFRQg-IggtJjYl-Nj11dGp0-ZHVkcGR9-cXNkd3Vq-dXZqfX19-fQ==</value>
+  </data>
+  <data name="ClientEmail" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="ClientWebSite" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="MemberShipCardApplicable" xml:space="preserve">
+    <value>1</value>
+    <comment>1 for on 0 of Off</comment>
+  </data>
+  <data name="MemberShipCardNoAutoGenerate" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="LabReportPath" xml:space="preserve">
+    <value>http://localhost/MDRC_LIVE/</value>
+  </data>
+  <data name="MobileAppFooter" xml:space="preserve">
+    <value>© 2017, Itdose, All rights reserved</value>
+  </data>
+  <data name="TinySMSFooter" xml:space="preserve">
+    <value>Namaste! Thank you for choosing Itdose Diagnostics. Your reports are ready. View/download your reports here TINY_URL For any assistance call 44442424</value>
+  </data>
+  <data name="TinySMSReturnURL" xml:space="preserve">
+    <value>http://localhost/MDRC_LIVE/design/lab/labreportnew_ShortSMS.aspx?LabNo=LAB_NO</value>
+  </data>
+  <data name="ClientImagePath" xml:space="preserve">
+    <value>"https://lims.apollodiagnostics.in/apolloimages/"</value>
+  </data>
+  <data name="DiagnosticName" xml:space="preserve">
+    <value>Itdose Diagnostic</value>
+  </data>
+  <data name="EmailSignature" xml:space="preserve">
+    <value>Apollo Heath and Lifestyle Limited</value>
+  </data>
+  <data name="ConcentFormApplicable" xml:space="preserve">
+    <value>1</value>
+    <comment>1 Yes 0 No</comment>
+  </data>
+  <data name="ConcentFormOpen" xml:space="preserve">
+    <value>1</value>
+    <comment>1 After Select Item, 2  After Item Save</comment>
+  </data>
+  <data name="ReportDeliveryChargeInvestigation_ID" xml:space="preserve">
+    <value>2147</value>
+  </data>
+  <data name="ReportDeliveryChargeItemID" xml:space="preserve">
+    <value>2147</value>
+  </data>
+  <data name="SampleCollectionChargeInvestigation_ID" xml:space="preserve">
+    <value>2146</value>
+  </data>
+  <data name="SampleCollectionChargeItemID" xml:space="preserve">
+    <value>2146</value>
+  </data>
+  <data name="OPDHomeCollection" xml:space="preserve">
+    <value>1</value>
+  </data>
+<data name="CashFlowStartDate" xml:space="preserve">
+    <value>2020-06-01 00:00:00</value>
+  </data>
+ <data name="HomeCollectionChargeItemID" xml:space="preserve">
+    <value>2048</value>
+  </data>
+  <data name="HomeCollectionCustomerCare" xml:space="preserve">
+    <value>0000000000</value>
+  </data>
+  <data name="HomeCollectionSMSTemplate" xml:space="preserve">
+    <value>Thank you for choosing Itdose Diagnostics.</value>
+  </data>
+</root>

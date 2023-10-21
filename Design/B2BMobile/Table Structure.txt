@@ -1,0 +1,21 @@
+CREATE TABLE `app_b2B_setting` (
+  `ID` INT(11) NOT NULL AUTO_INCREMENT,
+  `HeaderTest` VARCHAR(100) DEFAULT '',
+  `Color` VARCHAR(20) DEFAULT '',
+  `Logo` VARCHAR(200) DEFAULT NULL,
+  `WelcomeText` VARCHAR(100) DEFAULT NULL,
+  `EntryBy` VARCHAR(100) DEFAULT NULL,
+  `EntryById` INT(11) DEFAULT NULL,
+  `EntryDate` DATETIME DEFAULT NULL,
+  `UpdateBy` VARCHAR(50) DEFAULT NULL,
+  `Updatedate` DATETIME DEFAULT NULL,
+  `IsActive` TINYINT(2) DEFAULT '1',
+  `UpdateById` INT(11) DEFAULT NULL,
+  `IsShowPoweredBy` TINYINT(2) DEFAULT '0',
+  `LabReportPath` VARCHAR(300) DEFAULT '',
+  `WelcomeContent` VARCHAR(400) DEFAULT '',
+  `HelpLineNo24x7` VARCHAR(15) DEFAULT NULL,
+  PRIMARY KEY (`ID`)
+) ENGINE=INNODB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8
+
+insert  into `app_B2B_setting`(`ID`,`HeaderTest`,`Color`,`Logo`,`WelcomeText`,`EntryBy`,`EntryById`,`EntryDate`,`UpdateBy`,`Updatedate`,`IsActive`,`UpdateById`,`IsShowPoweredBy`,`LabReportPath`,`WelcomeContent`,`HelpLineNo24x7`) values (2,'','#e66465','ashok NABL logo.jpg','Welcome 1','ITDOSE TEAM','1','2020-07-29 18:51:47','ITDOSE TEAM',NULL,1,'1',1,'Testing','Welcomecxcxcx','8756212800');

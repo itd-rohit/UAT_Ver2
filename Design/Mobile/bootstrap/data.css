@@ -1,0 +1,190 @@
+﻿/*---------------------------Start vertical Table for mobile-------------------------------------------*/
+
+.datagrid table {
+    border-collapse: collapse;
+    text-align: left;
+    width: 100%;
+}
+
+.datagrid {
+    font: normal 12px/150% Arial, Helvetica, sans-serif;
+    background: #fff;
+    overflow: hidden;
+    border: 1px solid #ef;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+
+    .datagrid table td, .datagrid table th {
+        padding: 3px 10px;
+    }
+
+    .datagrid table thead th {
+        background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #f1f1f1), color-stop(1, #ccc) );
+        background: -moz-linear-gradient( center top, #f1f1f1 5%, #ccc 100% );
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f1f1f1', endColorstr='#ccc');
+        background-color: #efefef;
+        color: #FFFFFF;
+        font-size: 12px;
+        font-weight: bold;
+        border-left: 1px solid #d0d0d0;
+    }
+
+        .datagrid table thead th:first-child {
+            border: none;
+        }
+
+    .datagrid table tbody td {
+        color: #000000;
+        border-left: 1px solid #D9CFB8;
+        font-size: 12px;
+        border-bottom: 1px solid #E1EEF4;
+        font-weight: normal;
+    }
+
+    .datagrid table tbody .alt td {
+        background: #EDF3F5;
+        color: #000000;
+    }
+
+    .datagrid table tbody td:first-child {
+        border-left: none;
+    }
+
+    .datagrid table tbody tr:last-child td {
+        border-bottom: none;
+    }
+/* 
+Generic Styling, for Desktops/Laptops 
+*/
+.table-vertical {
+    width: 100%;
+    height: auto;
+    border-collapse: collapse;
+}
+    /* Zebra striping */
+    .table-vertical > tbody > tr:nth-of-type(odd) {
+        background: #f9f9f9;
+    }
+
+    .table-vertical > thead > tr > th {
+        /*background: #fff;*/
+        color: #616060;
+        font-weight: bold;
+    }
+
+    .table-vertical > tbody > tr > td, .table-vertical > thead > tr > th {
+        padding: 6px;
+        border-top: 1px solid #ddd;
+        text-align: left;
+        vertical-align: middle;
+    }
+
+
+    .pageNumber {
+        font-size:10px!important;
+    }
+
+    .pagination > li > a, .pagination > li > span {
+    background: #fb599e;
+    background-image: linear-gradient(to bottom, #fb599e, #ff5ba1);
+    color:#FFF;
+    }
+    .pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+    z-index: 3;
+    color: #fff;
+    cursor: default;
+      background: #13869d ;
+    background-image: linear-gradient(to bottom, #13869d , #13869d );
+   
+}
+/* 
+Max width before this PARTICULAR table gets nasty
+This query will take effect for any screen smaller than 760px
+and also iPads specifically.
+*/
+@media only screen and (max-width: 760px), (min-device-width: 768px) and (max-device-width: 1024px) {
+
+    /* Force table to not be like tables anymore */
+    /*table, thead, tbody, th, td, tr {
+        display: block;
+    }*/
+
+    .table-vertical, .table-vertical thead, .table-vertical tbody, .table-vertical th, .table-vertical td, .table-vertical tr {
+        display: block;
+    }
+
+        /* Hide table headers (but not display: none;, for accessibility) */
+        .table-vertical thead tr {
+            position: absolute;
+            top: -9999px;
+            left: -9999px;
+        }
+
+        .table-vertical > thead > tr, .table-vertical > tbody > tr {
+               border: 1px solid #ccc;
+               margin-top: 5px;
+        }
+
+
+            .table-vertical > thead > tr > td, .table-vertical > tbody > tr > td {
+                /* Behave  like a "row" */
+                border: none;
+                border-bottom: 1px solid #eee !important;
+                position: relative;
+                padding-left: 50%;
+            }
+
+                .table-vertical > tbody > tr > td:before {
+                    /* Now like a table header */
+                    position: absolute;
+                    /* Top/left values mimic padding */
+                    top: 6px;
+                    left: 6px;
+                    width: 45%;
+                    padding-right: 10px;
+                    white-space: nowrap;
+                }
+
+                /*
+	Label the data
+	*/
+                .table-vertical > tbody > tr > td:before {
+                    content: attr(data-th);
+                }
+
+    .pagination {
+        display: inline-block;
+        padding-left: 0;
+        margin: 0px 0 !important;
+        border-radius: 4px;
+    }
+
+    .paging-section {
+        padding: 0!important;
+    }
+    .pageNumber {
+        font-size:10px!important;
+    }
+    .bottom-paging-section {
+        margin-top:5px;
+        padding:0;
+    }
+    .pagination > li > a, .pagination > li > span {
+   background: #9ebcd4;
+    background-image: linear-gradient(to bottom, #9ebcd4, #9ebcd4);
+    color:#FFF;
+    }
+    .pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+    z-index: 3;
+    color: #fff;
+    cursor: default;
+      background: #13869d ;
+    background-image: linear-gradient(to bottom, #13869d , #13869d );
+   
+}
+}
+
+/*---------------------------End Table-------------------------------------------*/

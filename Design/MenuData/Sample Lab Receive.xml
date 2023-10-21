@@ -1,0 +1,13 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Menu>
+    <ID>75</ID>
+    <MenuName>Sample Lab Receive</MenuName>
+    <image>data:image/jpg;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAUCAIAAAAGHlpnAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAr5JREFUOE+Nk19MUmEYxj8vYq4pmcuSg3AO5wgYf3TDG9eNZa0r686tu7ZaXbTZ1mquORXYmDUWiYuBMHM5Bl5ATAozRIc1++NNyBasO2vN7vQcgSCQA72MRgwUPZffeX/P877v830of4QvEon09vYGAoF9a9ERFPIej4fH43V2drrd7ur6I0mwLDs2NoZhGEVR09PTFSqHS1it1rW1NcD0er1AIBAKhQaDoVzlEInJyUkYQaVSbW1tAWY2mwmC4PP5Op0ul8sVhWpJmEwm8AQGyHQ6XQTsdrtYLAZdGC2VStWSAAx4HMdtNlvF8D6fT6FQ1NfXOxyOAyVgfoDhs1gs5bzT6ZyamoIT2M7dwcFo5Ov+EgfxLpcLEoFcgsFgrXVCZiRBnBUJX1hM5XXAwwpgkRqNJh6Pw691Jjv0rWoXMzMzlIggcfz2uDGUyG/EchsxNpTM210eqVQC/lqtthjEjxR7ZpnhLtHbmdz/RGZnZ9tJkUSEt9w3NqymOEuxY36Gs5o5/dhFSDraMEytVhf5bC4/EEqc/xxvCjDPf6b/STjn5sTAE8BPoOUkeruL3tBoJX380UuyQy7EChGWLsIneo+7xDh+ZZqXmb71REHC6/VShLDg/8BY4P27dYs0Cma4+nmpTE5gvJGREbjjpdUYN/+gBbotWCg7EWBQOBzukssofmvL0DO0UsY/eSWVK6p5EDJ+T6PXNFrYQeAEzV7t76dI8tRDM1pJlfwbDT6pQoljvOHh4XL/YiPRRLYZzL07aH6752MMdeBt5MUrdf4Y8seL/Tc+XZAougisFfhsNlv9uuHkA713I/z7XjS5mWTRnVs3BfIujjOK3ufRO7ZhYhF4vCZfIYrgCZ7rVjX1XGocd5/U2gmZEue1jo6OHuRf3VQhkS+h0PVrA90yqbKdvNx3wWqzlfLbd4qKw7/pHdcXZRpXRAAAAABJRU5ErkJggg==</image>
+    <Items>
+      <URLName>/Design/Lab/SampleCollection.aspx</URLName>
+      <DispName>Sample Lab Receive</DispName>
+      <MenuID>75</MenuID>
+    </Items>
+  </Menu>
+</NewDataSet>

@@ -1,0 +1,93 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="VendorPortal.master.cs" Inherits="Design_Store_VendorPortal_VendorPortal" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <webopt:BundleReference ID="BundleReference1" runat="server" Path="~/App_Style/css" /> 
+      <link rel="Shortcut Icon" href="~/App_Images/itdose.ICO" type="image/x-icon" />
+       
+     
+       <title></title>
+       <script type="text/javascript">
+           window.history.forward(1);
+       </script>
+</head>
+<body>
+     <%: Scripts.Render("~/bundles/WebFormsJs") %>
+    <form id="form1" runat="server">
+    
+
+         <div class="masterheader" id="masterheaderid">
+        <table style="width:100%">
+            <tr>
+                <td style="width:70px;"><asp:Label ID="Label1" runat="server" Font-Bold="False"  Text="Welcome:"></asp:Label></td>
+                <td> <asp:Label ID="lblLoginName" runat="server" Font-Bold="False" style="color:Blue" Font-Size="1.1em"></asp:Label></td>
+                <td style="width:50px;">
+                    <img  src="<%=Request.Url.Scheme %>://<%=Request.Url.Host %>:<%=Request.Url.Port %>/<%=Request.Url.AbsolutePath.Split('/')[1] %>/App_Images/homebtnn.png" onclick="backtohome()" alt="" style="cursor: pointer;display:none;" />
+                </td>
+                <td style="width:100px;">
+                   <input type="button" value="LogOut" class="resetbutton" onclick="LogOut()" />
+                </td>
+            </tr>
+        </table>
+ 
+
+             
+         
+  <asp:Menu ID="mnuHIS" runat="server" DynamicHorizontalOffset="2" Font-Names="Verdana" Font-Size="9pt" ForeColor="maroon" StaticSubMenuIndent="9pt" Orientation="Horizontal" RenderingMode="Table">
+                <StaticMenuItemStyle HorizontalPadding="10px" VerticalPadding="5px" Font-Names="Verdana" />
+                <DynamicHoverStyle BackColor="#F3F7FA" ForeColor="#484747" Font-Size="9pt" Font-Names="Verdana" />
+                <DynamicMenuStyle BackColor="#F3F7FA" />
+                <DynamicSelectedStyle BackColor="#5D7B9D" />
+                <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" BackColor="#F3F7FA" />
+                <DataBindings>
+                    <asp:MenuItemBinding DataMember="MenuItem" TextField="Text" ToolTipField="ToolTip" />
+                    <asp:MenuItemBinding DataMember="Item" TextField="Text" NavigateUrlField="NavigateUrl" />
+                </DataBindings>
+            </asp:Menu>
+     
+    </div>
+
+            <div id="body_box_inventory_o">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+    </form>
+
+    <script type="text/javascript">
+        function backtohome() {
+            window.location.href = "<%=Request.Url.Scheme %>://<%=Request.Url.Host %>:<%=Request.Url.Port %>/<%=Request.Url.AbsolutePath.Split('/')[1] %>/Design/Store/VendorPortal/VendorWelcome.aspx";
+          }
+
+        function LogOut() {
+            try {
+               
+                  $.ajax({
+                      url: "<%=Request.Url.Scheme %>://<%=Request.Url.Host %>:<%=Request.Url.Port %>/<%=Request.Url.AbsolutePath.Split('/')[1] %>/Design/Store/VendorPortal/VendorPortal.asmx/LogOut",
+                      data: '{supplierid:"<%=Session["SupplierID"].ToString()%>"}', // parameter map       
+                    type: "POST", // data has to be Posted    	        
+                    contentType: "application/json; charset=utf-8",
+                    timeout: 120000,
+                    dataType: "json",
+                    success: function (result) {
+                        if (result.d == "logout") {
+
+                            window.location.href = "<%=Request.Url.Scheme %>://<%=Request.Url.Host %>:<%=Request.Url.Port %>/<%=Request.Url.AbsolutePath.Split('/')[1] %>/Design/Default.aspx";
+
+                        }
+                        
+                        // alert(result);
+                    },
+                    error: function (xhr, status) {
+
+                    }
+                });
+            }
+            catch (e) {
+                window.location.href = "<%=Request.Url.Scheme %>://<%=Request.Url.Host %>:<%=Request.Url.Port %>/<%=Request.Url.AbsolutePath.Split('/')[1] %>/Design/Default.aspx";
+            }
+        }
+    </script>
+</body>
+</html>

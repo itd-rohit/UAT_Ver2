@@ -1,0 +1,1 @@
+https://103.229.250.200/smpp/sendsms?username=idose&password=idose007&to=919010705760&from=ITDOSE&text=Dear Mr.ATOZ, Thanks for visiting us, your total bill amount is 1960 and paid amount is 1960. please click to see the receipt  http://9url.in/89WI58RG8R .   03-12-2022 18:43:25

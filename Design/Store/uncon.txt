@@ -1,0 +1,1 @@
+  SELECT concat(locationid,'#',Panel_ID) locationid,location FROM st_locationmaster WHERE isactive=1    ORDER BY location 

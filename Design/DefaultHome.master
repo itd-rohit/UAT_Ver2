@@ -1,0 +1,693 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="DefaultHome.master.cs" Inherits="Design_DefaultHome" %>
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title id="titleUser" runat="server"></title>
+    <script type="text/javascript">
+        window.history.forward(1);
+    </script>
+</head>
+     <style type="text/css">
+      
+
+        table.tbSales {
+    border-collapse: collapse; margin-bottom:5px;font-weight:bold; 
+}
+
+.tbSales  td {
+    border: 2px solid #D7EDFF; width:150px; text-align:center; padding:3px;  color:Red;
+}
+.tbSales  td.tdHead {
+   background-color:#D7EDFF; width:100px; white-space:nowrap; text-align:left; color:black;
+}
+
+
+    </style>
+<body style="margin: 0px 0px 0px 0px;">
+    <webopt:BundleReference ID="BundleReference1" runat="server" Path="~/App_Style/css" />
+
+    <%: Scripts.Render("~/bundles/WebFormsJs") %>
+    <script src="<%=Request.Url.Scheme %>://<%=Request.Url.Host %>:<%=Request.Url.Port %>/<%=Request.Url.AbsolutePath.Split('/')[1] %>/signalr/hubs" type="text/javascript"></script>
+
+
+    <form id="formMaster" runat="server" name="formMaster" defaultbutton="lnkSignOut" clientidmode="Static"  autocomplete="off">
+        <div style="position: fixed; width: 100%;z-index:999999" class="PurchaseheaderMaster" id="divMasterNav" runat="server">
+            <div class="row" style="font-size: 12px;vertical-align:top">
+               <div class="col-md-20">
+                   <div class="row">
+                    <div class="col-md-24" style="font-size: x-small;  overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">
+                        <table width="100%"><tr><td> <img src="<%=Resources.Resource.ApplicationName %>/App_Images/menu-btn.png" id="imgShowMenu" class="headerIcon" data-title="Click To Open Menu" alt="Show" style="border: none; margin-top: 0px; cursor: pointer" onclick="showLISMenu(event);" />
+               </td>
+                            <td>Welcome:</td><td><asp:Label ID="lblLoginName" runat="server" Font-Bold="False" Font-Size="1.0em"></asp:Label></td>
+                            <td> Centre:</td><td><asp:Label ID="lblCentreName" runat="server" Font-Bold="False" Font-Size="1.0em"></asp:Label></td>
+                            <td>Role:</td><td><asp:Label ID="lblRole" runat="server" Font-Bold="False" Font-Size="1.0em"></asp:Label></td>
+                          
+                            <td>Centre:</td><td > <asp:DropDownList ID="ddlCentreByUser" style="width:120px" ClientIDMode="Static" runat="server" onchange="changecentre()"></asp:DropDownList></td>
+                            <td id="spnMasterBalanceAmt">Balance Amt.:</td><td ><asp:Label ID="lblMasterBalanceAmount" ClientIDMode="Static" runat="server" style="font-weight:bold;width:10px" Font-Bold="true" Font-Size="1.4em"></asp:Label></td>
+                           
+
+                              <td id="lblsampleTracker">Sample Tracker:</td><td><asp:TextBox ID="txtDynamicSearchMaster" MaxLength="15" style="width:100px" placeholder="Enter SIN No.\ Visit ID" runat="server" /></td>
+
+                            <td ><input id="btnSearchMaster"   type="button" value="Search" onclick="DynamicSearch();" class="ItDoseButton" /></td>
+                               </tr> </table>
+                    </div> 
+                 </div> 
+                    </div>
+                 <div class="col-md-4">
+                   <div class="row">
+                            <div class="col-md-4">
+                                <a href='<%=ResolveUrl("../Design/Welcome.aspx") %>' style="text-decoration: none; border: none;">
+                                    <img class="headerIcon" src='<%=ResolveUrl("../App_Images/home-icon.png") %>' title="Click To Go Home Page" alt="Home" style="border: none; margin-top: 4px; height: 20px; cursor: pointer" /></a>
+                            </div>
+<div class="col-md-4">
+                            <img class="headerIcon" src='<%=ResolveUrl("../App_Images/NewImages/rem-icon.png") %>' alt="Notification" style="margin-top: 3px; height: 20px;" onclick="GetNotificationDetail()" /><span id="Ncount" class="Ncount notification red" style="margin-top:8px; position: absolute; font-weight: bold; font-size: 14px;cursor: pointer"></span>
+                           </div>
+                            <div class="col-md-4">
+                                <asp:ImageButton ID="imglogout" runat="server" ImageUrl="~/App_Images/icon-logout.png" OnClientClick="return false;signOutConfirmation(e);" CssClass="headerIcon" CausesValidation="false" ClientIDMode="Static" OnClick="lnkSignOut_Click" ToolTip="LogOut" Style="cursor: pointer; padding: 0px; margin: 0px;" />
+                            </div>
+                            <div class="col-md-4">
+                               <img class="headerIcon" src='<%=ResolveUrl("../App_Images/NewImages/role.png") %>' alt="Department" onclick="$showRoleModel()" title="Department" style="border-style: none; border-color: inherit; border-width: medium; margin-top: 0px; height: 20px; cursor: pointer" />
+                            </div>
+                            <div class="col-md-4">
+                               <img class="headerIcon" id="imgWindowReSize" style="cursor: pointer; padding: 0px; margin: 0px;" onclick="$toggleWindow(this)" alt="X" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAABfElEQVQ4jdWUz0tVQRTHP3Nf8XxQJm6DhNy9lZQblxGucpFtW2YQoS36BwTX/RdB+6CNoLhKAiUI10IKBbUK+/VeYJ8Wbx6M8+be1J1fGM7cc8585szcwwS1DcwAvWz8DCH8oCD1MnANGMvGV9TrjqqvLpRgETih7hTWrVXA7yy/DzwIIbypA4YQvgHzwG4W6lXxeCcKAP7UwRIdx81PFqNWsdye+inOf6nzdST1qrqdHPVjtMvDhO/qPfWmetAELcCeJXe6NEy6myyohRZgy0lsQr1dd6QU+iLx31KPctipFKGrBf+c+uRMsIuh+AMWC/4b6p3zwLbVv+rjDLbf1KdVTJxOYcA6MAcEoJ3kt4BLQAd4nbVUS50afhyq3VjZ21KfJQtH+jTCXqmPUEMMflHfNcEaoBtx/hS146hWTnHPKXSo5xWDhzHVEbD5PyBwALzPfO0ScBzYUrsN1bWAl8D9HBjUK8BDBu9iP7GfQwgfaoCTwCyDDhhL7N4/rxL4kpTDkcIAAAAASUVORK5CYII=" />
+                              <asp:LinkButton ID="lnkSignOut" runat="server" OnClientClick="return false" CausesValidation="false" Text="LogOut" Style="display: none;"/>
+                              <asp:HiddenField ID="hfSessionUserID" runat="server" ClientIDMode="Static"></asp:HiddenField>                            
+                            </div>
+                        </div>
+                    </div>
+               
+            </div>
+              <div class="col-md-24">
+                    <% 
+            
+            //1,6,177
+          
+            string abc = Session["RoleID"].ToString();
+	    string ProID=Session["PROID"].ToString();
+            string LoginType = Util.GetString(Session["LoginType"]);
+           // string _IsSubPcc = Util.GetString(Session["IsSubPCC"]);
+
+            if (abc == "6" && LoginType != "PCC" && LoginType != "SUBPCC")
+            {
+
+                try {
+
+                    System.Data.DataTable dtSales = StockReports.GetDataTable("  SELECT COUNT(*) PatientCount,Round(sum(lt.NetAmount))NetAmount   " +
+" FROM f_ledgertransaction lt WHERE lt.isCancel=0 AND lt.date>='" + DateTime.Now.ToString("yyyy-MM-dd") + " 00:00:00' AND lt.date<='" + DateTime.Now.ToString("yyyy-MM-dd") + " 59:59:59' and lt.IsSampleCollected='Y'   ");
+
+                    System.Data.DataTable dtSalesMonth = StockReports.GetDataTable(" SELECT COUNT(*) PatientCount,Round(sum(lt.NetAmount))NetAmount " +
+" FROM f_ledgertransaction lt WHERE isCancel=0 AND lt.date>='" + DateTime.Now.ToString("yyyy-MM") + "-01 00:00:00' AND lt.date<='" + DateTime.Now.ToString("yyyy-MM-dd") + " 59:59:59' and lt.IsSampleCollected='Y'   ");
+
+ %>
+
+
+
+        <table class="tbSales">
+            <tr>
+                <td class="tdHead">Today </td>
+                <td style="width: 150px"> <%=dtSales.Rows[0]["PatientCount"].ToString()%></td>
+                <td><%=dtSales.Rows[0]["NetAmount"].ToString()%> </td>
+                <td class="tdHead">Month </td>
+                <td><%=dtSalesMonth.Rows[0]["PatientCount"].ToString()%>  </td>
+                <td><%=dtSalesMonth.Rows[0]["NetAmount"].ToString()%> </td>
+<td class="tdHead">Monthly Expected</td>
+                <td><%= Math.Round(Util.GetFloat(dtSalesMonth.Rows[0]["PatientCount"]) / DateTime.Now.Day) * DateTime.DaysInMonth(DateTime.Now.Year, DateTime.Now.Month)%> </td>
+                <td style="width: 150px"><%= Math.Round(Util.GetFloat(dtSalesMonth.Rows[0]["NetAmount"]) / DateTime.Now.Day) * DateTime.DaysInMonth(DateTime.Now.Year, DateTime.Now.Month)%> </td>
+
+            </tr>
+
+        </table>
+
+        
+
+        <%}
+                catch { }
+            } %>
+         <% 
+            
+            else if (LoginType == "PCC")
+            {
+
+                try {
+                    StringBuilder sbSales = new StringBuilder();
+                    StringBuilder sbSalesMonth = new StringBuilder();
+                    System.Data.DataTable dtSalesMonth1 = new System.Data.DataTable();
+                    System.Data.DataTable dtSales1 = new System.Data.DataTable();
+                    string _InvoiceTo = ""; string _PanelBalance = "";
+                    StringBuilder sbpaidamount = new StringBuilder();
+                    System.Data.DataTable paidamount1 = new System.Data.DataTable();
+                    if (Util.GetString(StockReports.ExecuteScalar("Select if(Payment_Mode='Credit','1','0') from f_panel_master where Employee_ID='" + UserInfo.ID + "'")) == "1")
+                    {
+
+                        sbSales.Append(" SELECT COUNT(*) PatientCount,Round(sum(lt.NetAmount))NetAmount ");
+                        sbSales.Append(" FROM f_ledgertransaction lt ");
+                        sbSales.Append(" INNER JOIN f_panel_master fpm on fpm.Panel_ID=lt.Panel_ID and  fpm.InvoiceTo IN (SELECT Panel_id FROM f_panel_master WHERE Employee_ID='" + Session["ID"].ToString() + "')  ");
+                        sbSales.Append("    WHERE  lt.date>='" + DateTime.Now.ToString("yyyy-MM-dd") + " 00:00:00' AND lt.date<='" + DateTime.Now.ToString("yyyy-MM-dd") + " 59:59:59'    ");
+                        //lt.isCancel=0 AND and lt.IsSampleCollected='Y'
+                        dtSales1 = StockReports.GetDataTable(sbSales.ToString());
+
+
+
+                        sbSalesMonth.Append(" SELECT COUNT(*) PatientCount,Round(sum(lt.NetAmount))NetAmount  ");
+                        sbSalesMonth.Append(" FROM f_ledgertransaction lt ");
+                        sbSalesMonth.Append(" INNER JOIN f_panel_master fpm on fpm.Panel_ID=lt.Panel_ID AND fpm.InvoiceTo IN (SELECT Panel_id FROM f_panel_master WHERE Employee_ID='" + Session["ID"].ToString() + "')  ");
+                        sbSalesMonth.Append(" WHERE  lt.date>='" + DateTime.Now.ToString("yyyy-MM") + "-01 00:00:00' AND lt.date<='" + DateTime.Now.ToString("yyyy-MM-dd") + " 59:59:59'    ");
+                        //and lt.IsSampleCollected='Y'
+                        
+                        dtSalesMonth1 = StockReports.GetDataTable(sbSalesMonth.ToString());
+                        _InvoiceTo = StockReports.ExecuteScalar("Select InvoiceTo from f_panel_master where Employee_ID='" + Util.GetString(Session["ID"]) + "' ");
+
+                        _PanelBalance = StockReports.ExecuteScalar("SELECT get_pcc_outstanding('" + _InvoiceTo + "');");
+
+
+                        sbpaidamount.Append("  SELECT round(IFNULL(iof.PaidAmount2,0)) ReceivedAmt  FROM f_panel_master fpm1 ");
+                        sbpaidamount.Append(" LEFT JOIN (SELECT SUM(lt.NetAmount) BillingAmount,SUM(lt.`Adjustment`) PaidAmount1,");
+                        sbpaidamount.Append(" pnl.`employee_ID` FROM `f_ledgertransaction` lt ");
+                        sbpaidamount.Append(" INNER JOIN  f_panel_master pnl ON lt.Panel_ID=pnl.Panel_ID WHERE  ");
+                        sbpaidamount.Append(" pnl.`employee_ID`='" + Session["ID"].ToString() + "' ) ltf ON ltf.employee_ID=fpm1.employee_ID ");
+                        sbpaidamount.Append(" LEFT JOIN (SELECT IFNULL(SUM(receivedamt),0) PaidAmount2,pnl1.employee_ID ");
+                        sbpaidamount.Append(" FROM  invoicemaster_onaccount io ");
+                        sbpaidamount.Append(" INNER JOIN f_panel_master pnl1 ON io.Panel_id=pnl1.Panel_ID  AND (creditnote=0 OR creditnote=1) ");
+                        sbpaidamount.Append(" WHERE iscancel=0 AND IFNULL(io.`InvoiceNo`,'')='' ");
+                        sbpaidamount.Append(" AND pnl1.`employee_ID`='" + Session["ID"].ToString() + "') iof ON iof.employee_ID=fpm1.employee_ID ");
+                        sbpaidamount.Append(" WHERE fpm1.`employee_ID`='" + Session["ID"].ToString() + "' GROUP BY fpm1.`employee_ID` ;  ");
+                        paidamount1 = StockReports.GetDataTable(sbpaidamount.ToString());
+                    }
+                    else
+                    {
+
+                        sbSales.Append(" SELECT COUNT(*) PatientCount,Round(sum(lt.NetAmount))NetAmount ");
+                        sbSales.Append(" FROM f_ledgertransaction lt ");
+                        sbSales.Append(" INNER JOIN f_panel_master fpm on fpm.Panel_ID=lt.Panel_ID and  fpm.Employee_ID='" + UserInfo.ID + "' ");
+                        sbSales.Append("    WHERE  lt.date>='" + DateTime.Now.ToString("yyyy-MM-dd") + " 00:00:00' AND lt.date<='" + DateTime.Now.ToString("yyyy-MM-dd") + " 59:59:59'  ");
+                        dtSales1 = StockReports.GetDataTable(sbSales.ToString());
+
+                        sbSalesMonth.Append(" SELECT COUNT(*) PatientCount,Round(sum(lt.NetAmount))NetAmount  ");
+                        sbSalesMonth.Append(" FROM f_ledgertransaction lt ");
+                        sbSalesMonth.Append(" INNER JOIN f_panel_master fpm on fpm.Panel_ID=lt.Panel_ID and  fpm.Employee_ID='" + UserInfo.ID + "'  ");
+                        sbSalesMonth.Append(" WHERE lt.date>='" + DateTime.Now.ToString("yyyy-MM") + "-01 00:00:00' AND lt.date<='" + DateTime.Now.ToString("yyyy-MM-dd") + " 59:59:59'  ");
+                        dtSalesMonth1 = StockReports.GetDataTable(sbSalesMonth.ToString());
+
+                        _InvoiceTo = StockReports.ExecuteScalar("Select Panel_ID from f_panel_master where Employee_ID='" + Util.GetString(Session["ID"]) + "' ");
+                       
+                        _PanelBalance = StockReports.ExecuteScalar("select round(sum(ifnull(lt.`NetAmount`,0))-sum(ifnull(lt.`Adjustment`,0))) BalAmount from f_ledgertransaction lt where lt.Panel_id='" + _InvoiceTo + "' ;");
+                        sbpaidamount.Append("   SELECT SUM(IFNULL(lt.`Adjustment`,0)) ReceivedAmt FROM f_ledgertransaction lt WHERE  lt.Panel_id='" + _InvoiceTo + "' ;  ");
+                        paidamount1 = StockReports.GetDataTable(sbpaidamount.ToString());
+                        
+                    }
+
+ %>
+
+
+
+        <table class="tbSales" style="width: 100%">
+            <tr>
+                <td class="tdHead">Today </td>
+                <td style=""> <%=dtSales1.Rows[0]["PatientCount"].ToString()%></td>
+                <td><%=dtSales1.Rows[0]["NetAmount"].ToString()%> </td>
+                <td class="tdHead">Month </td>
+                <td><%=dtSalesMonth1.Rows[0]["PatientCount"].ToString()%>  </td>
+                <td><%=dtSalesMonth1.Rows[0]["NetAmount"].ToString()%> </td>
+               <%--  <td class="tdHead">Monthly Expected</td>
+                <td><%= Math.Round(Util.GetFloat(dtSalesMonth1.Rows[0]["PatientCount"]) / DateTime.Now.Day) * Math.Round(Util.GetFloat(DateTime.DaysInMonth(DateTime.Now.Year, DateTime.Now.Month)))%> </td>
+                <td style="width: 150px"><%= Math.Round(Util.GetFloat(dtSalesMonth1.Rows[0]["NetAmount"]) / DateTime.Now.Day) * Math.Round(Util.GetFloat(DateTime.DaysInMonth(DateTime.Now.Year, DateTime.Now.Month)))%> </td> --%>
+            </tr>
+
+        </table>
+
+        
+
+        <%}
+                catch { }
+            } %>
+         <% 
+             else if (ProID != "0" && abc=="220")
+            {
+
+                try {
+                    StringBuilder sbSales = new StringBuilder();
+                    StringBuilder sbSalesMonth = new StringBuilder();
+                    System.Data.DataTable dtSalesMonth1 = new System.Data.DataTable();
+                    System.Data.DataTable dtSales1 = new System.Data.DataTable();
+                    string _InvoiceTo = ""; string _PanelBalance = "";
+                    StringBuilder sbpaidamount = new StringBuilder();
+                    System.Data.DataTable paidamount1 = new System.Data.DataTable();
+                    
+                        sbSales.Append(" SELECT COUNT(*) PatientCount,Round(sum(lt.NetAmount))NetAmount ");
+                        sbSales.Append(" FROM f_ledgertransaction lt where lt.Proid='" + ProID + "' ");
+                        sbSales.Append(" AND  lt.date>='" + DateTime.Now.ToString("yyyy-MM-dd") + " 00:00:00' AND lt.date<='" + DateTime.Now.ToString("yyyy-MM-dd") + " 59:59:59'  ");
+                        dtSales1 = StockReports.GetDataTable(sbSales.ToString());
+
+                        sbSalesMonth.Append(" SELECT COUNT(*) PatientCount,Round(sum(lt.NetAmount))NetAmount  ");
+                        sbSalesMonth.Append(" FROM f_ledgertransaction lt where lt.Proid='" + ProID + "' ");
+                        sbSalesMonth.Append(" AND lt.date>='" + DateTime.Now.ToString("yyyy-MM") + "-01 00:00:00' AND lt.date<='" + DateTime.Now.ToString("yyyy-MM-dd") + " 59:59:59'  ");
+                        dtSalesMonth1 = StockReports.GetDataTable(sbSalesMonth.ToString());
+                       
+                        _PanelBalance = StockReports.ExecuteScalar("select round(sum(ifnull(lt.`NetAmount`,0))-sum(ifnull(lt.`Adjustment`,0))) BalAmount from f_ledgertransaction lt where  lt.Proid='" + ProID + "' ;");
+                        sbpaidamount.Append("   SELECT SUM(IFNULL(lt.`Adjustment`,0)) ReceivedAmt FROM f_ledgertransaction lt where lt.Proid='" + ProID + "' ;  ");
+                        paidamount1 = StockReports.GetDataTable(sbpaidamount.ToString());
+                        
+                   
+
+ %>
+
+
+
+        <table class="tbSales">
+            <tr>
+                <td class="tdHead">Today </td>
+                <td style="width: 150px"> <%=dtSales1.Rows[0]["PatientCount"].ToString()%></td>
+                <td><%=dtSales1.Rows[0]["NetAmount"].ToString()%> </td>
+                <td class="tdHead">Month </td>
+                <td><%=dtSalesMonth1.Rows[0]["PatientCount"].ToString()%>  </td>
+                <td><%=dtSalesMonth1.Rows[0]["NetAmount"].ToString()%> </td>
+                <%--  <td class="tdHead">Monthly Expected</td>
+                <td><%= Math.Round(Util.GetFloat(dtSalesMonth1.Rows[0]["PatientCount"]) / DateTime.Now.Day) * Math.Round(Util.GetFloat(DateTime.DaysInMonth(DateTime.Now.Year, DateTime.Now.Month)))%> </td>
+                <td style="width: 150px"><%= Math.Round(Util.GetFloat(dtSalesMonth1.Rows[0]["NetAmount"]) / DateTime.Now.Day) * Math.Round(Util.GetFloat(DateTime.DaysInMonth(DateTime.Now.Year, DateTime.Now.Month)))%> </td> --%>
+                <td class="tdHead">Outstanding</td>
+                 <td><%= _PanelBalance %>  </td>
+                  <td class="tdHead">PaidAmount</td>
+                 <td><%=Math.Round(Util.GetFloat(paidamount1.Rows[0]["ReceivedAmt"]))%> </td>
+            </tr>
+
+        </table>
+
+        
+
+        <%}
+                catch { }
+            } %>
+         <% 
+            
+            else if (LoginType == "SUBPCC")
+            {
+
+               
+            } %>
+        
+                </div>
+             </div>
+       
+       
+        <div id="wrapper">
+            <div id="sidebar-wrapper">
+                <ul class="sidebar-nav mainmenu" style="margin-top:35px;">
+<li>
+                        <input type="text" class="search_textbox" style="width:86%;margin-left:19px; margin-top:5px" placeholder="Search Menu"/>
+
+
+                    </li>
+                    <li>
+                        <asp:Repeater ID="rptMenu" OnItemDataBound="rptMenu_ItemDataBound" runat="server">
+                            <HeaderTemplate>
+                                <ul class="mainMenu">
+                            </HeaderTemplate>
+                            <ItemTemplate>
+                                <li class="has-sub">
+                                    <span class="holder"></span>
+                                    <asp:Label runat="server" Visible="false" Text='<%#Eval("ID") %>' ID="lblMenuID"> </asp:Label>
+                                    <a href="javascript:void(0);" class="mainMenuAnchor" id='<%# Eval("ID") %>' style="background: url('<%# Eval("image") %>') no-repeat left center; padding-left: 10px;"><%#Eval("MenuName") %></a>
+                                    <asp:Repeater ID="rptSubMenu" runat="server">
+                                        <HeaderTemplate>
+                                            <ul class="submenus">
+                                        </HeaderTemplate>
+                                        <ItemTemplate>
+                                            <li><a style="background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEwAACxMBAJqcGAAAAPxJREFUOI1jYKARYCRWITOGyP//jPJvtJokDB153p7ddotkA1Seyvk8k/eY8ZFPxUtBTeXRuzNbL+MzgAldgOXnO2EGBkaGH/zS/E+U/aerZE2PJsmAfwzM/2DsH7xSfE9U/acpZ02LJdoAdPCDT5LvqW7AFPmqlYFkGcDAwMDwg1uS752Y2kKtlBYDsgxgYGBgYPzP8I+FhfEPWQawf3n2QeDljZhLM6qvkGwA+5dnH+Subsx81BG5BZs8C6aJf+GGsn969kHu4cbM21OzVuCyAMOAv1xirxn+/2Pg+PTko+zjzZm3Z+DWjB38/8+okLWsXiN1kjdpGgcKAAAs+VIyHT+VPAAAAABJRU5ErkJggg==') no-repeat left center; margin-left: -2px;"
+                                                href="<%# Eval("MenuURL") %>" id='<%# Eval("MenuID") %>'>
+                                                <%#Eval("MenuDisplayName") %>
+                                                
+                                            </a></li>
+                                        </ItemTemplate>
+                                        <FooterTemplate>
+                                            </ul>
+                                        </FooterTemplate>
+                                    </asp:Repeater>
+                                </li>
+                            </ItemTemplate>
+                            <FooterTemplate>
+                                </ul>
+                            </FooterTemplate>
+                        </asp:Repeater>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                <div id="divMasterPageParent" style="height: 650px; overflow: auto">
+                </div>
+            </asp:ContentPlaceHolder>
+            <div id="notifications" class="Notification">
+                <h3>Notifications</h3>
+                <div class="POuter_Box_Inventory" style="height: auto; width: 222px; border: solid 0px #f3f7fa; background: #edf2fa; margin: 0px!important;">
+                    <div id="NotificationBody" style="text-align: center;">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="divRoleModel" style="background: rgba(0, 0, 0, 0.94);" class="modal fade">
+            <div class="modal-dialog">
+                <div class="modal-content" style="width: 900px; max-height: 500px;">
+                    <div class="modal-header">
+                        <div class="row">
+                            <div class="col-md-12" style="text-align: left">
+                                <h4 class="modal-title">Authorized Roles & Departments</h4>
+                            </div>
+<div class="col-md-12" style="text-align: right">
+                                <em><span style="font-size: 7.5pt; color: #0000ff;">
+                                    <div>
+                                        
+                                        <button type="button" class="close" data-dismiss="divRoleModel" aria-hidden="true">&times;</button>
+                                    </div>
+                                </span></em>
+                            </div>
+                            
+
+
+                        </div>
+                    </div>
+                    <div class="chosen-container-single">
+                        <div class="chosen-search">
+                            <input class="chosen-search-input" placeholder="Search And Press Enter To Select !!" style="text-align: center; font-weight: bold; color: blue; text-transform: uppercase" onkeyup="searchRole(event)" type="text" autocomplete="off" onlytext="50" maxlength="50" />
+                        </div>
+                    </div>
+                    <div class="modal-body popup-container">
+
+                        <asp:Repeater ID="rptRole" runat="server" OnItemCommand="rptRole_ItemCommand" ClientIDMode="Static">
+                            <HeaderTemplate>
+                                <ul>
+                            </HeaderTemplate>
+                            <ItemTemplate>
+                                <li class='liRoleDeaprtments <%#Eval("ID") %>' id='<%#Eval("ID") %>' na-data-title='<%# Eval("RoleName") %>' style="height: 100px; float: left;">
+                                    <%--<asp:LinkButton ID="lbselect" ClientIDMode="Static" CommandName="Select" CommandArgument='<%# Eval("RoleName") +"#"+Eval("ID") %>' BackColor='<%# System.Drawing.ColorTranslator.FromHtml(Eval("background").ToString())%>' na-data-title='<%# Eval("RoleName") %>' runat="server">--%>
+                                      <a style="cursor:pointer;background-color:<%# Eval("background").ToString()%>;" onclick="changeRole('<%# Eval("ID") %>')">     <img alt="" style="width: 50px; height: 50px; "  na-data-title='<%# Eval("RoleName") %>'   src='<%# Resources.Resource.ApplicationName+Eval("image") %>'   />
+                                           <p na-data-title='<%# Eval("RoleName") %>'><%# Eval("RoleName") %></p> </a>
+                                   <%-- </asp:LinkButton>--%>
+                                </li>
+                            </ItemTemplate>
+                            <FooterTemplate>
+                                </ul>
+                            </FooterTemplate>
+                        </asp:Repeater>
+                    </div>
+             
+                    <div class="modal-footer">
+                    </div>
+                </div>
+            </div>
+        </div>
+	<div id="divNotification" style="color:#000;font-family:sans-serif; top: 5%; right: 10%; position: absolute; max-width: 300px; max-height: 300px;overflow:auto; border: 1px solid rgb(238, 238, 238); background: url(http://182.18.138.149/Eurofins/App_Images/patter.jpg); padding: 4px 0% 0%; box-shadow: rgb(0, 0, 0) 3px 2px 13px;display:none;">
+             </div>
+<script type="text/javascript">
+            $(function () {
+
+                $('.search_textbox').keydown(function () {
+
+                    var searchText = $(this).val().toLowerCase();
+
+
+                    $(' li > ul > li').each(function () {
+
+                        var currentLiText = $(this).text().toLowerCase();
+                        showCurrentLi = currentLiText.indexOf(searchText) !== -1;
+
+
+                        $(this).toggle(showCurrentLi);
+                        $('.submenus').removeAttr("style");
+                    });
+
+
+
+                });
+
+            });
+        </script>
+        <script type="text/javascript">
+            $(function () {
+                $("#ddlCentreByUser").select2({ dropdownAutoWidth: true });
+            });
+            function DynamicSearch() {
+                if ($("#<%=txtDynamicSearchMaster.ClientID %>").val() == "") {
+                    toast("Info", "Please Enter Search Criteria", "");
+                    $("#<%=txtDynamicSearchMaster.ClientID %>").focus();
+                    return;
+                }
+                serverCall('<%=Request.Url.Scheme %>://<%=Request.Url.Host %>:<%=Request.Url.Port %>/<%=Request.Url.AbsolutePath.Split('/')[1] %>/Design/Common/Services/CommonServices.asmx/encryptDynamicData', { LabNo: $("#<%=txtDynamicSearchMaster.ClientID %>").val() }, function (response) {
+                    PostQueryStringSelf(JSON.parse(response), '<%=Request.Url.Scheme %>://<%=Request.Url.Host %>:<%=Request.Url.Port %>/<%=Request.Url.AbsolutePath.Split('/')[1] %>/Design/Lab/DynamicLabSearch.aspx');
+                });
+            }
+            function showOptions(Ctrl) {
+            }
+            $(function () {
+                $("#<%= txtDynamicSearchMaster.ClientID%>").keydown(
+                         function (e) {
+                             var key = (e.keyCode ? e.keyCode : e.charCode);
+                             if (key == 13) {
+                                 e.preventDefault();
+                                 DynamicSearch();
+                             }
+                         });
+            });
+            function changecentre() {
+                try {
+                    var id = $('#ddlCentreByUser').val();
+                    var name = $('#ddlCentreByUser option:selected').text();
+
+                    serverCall('<%=Request.Url.Scheme %>://<%=Request.Url.Host %>:<%=Request.Url.Port %>/<%=Request.Url.AbsolutePath.Split('/')[1] %>/Design/Lab/Services/Role.asmx/changecentre', { centreid: id, centrename: name }, function (response) {
+                        if (JSON.parse(response).status)
+                            window.location.reload();
+                        else
+                            window.location.reload();
+                    });
+                }
+                catch (e) {
+                    window.location.reload();
+                }
+            }
+            function blinker() {
+                $('#lblMasterBalanceAmount').fadeOut(500);
+                $('#lblMasterBalanceAmount').fadeIn(500);
+            }
+            function WebForm_DoPostBackWithOptions(options) {
+                var validationResult = true;
+                if (options.validation) {
+                    if (typeof (Page_ClientValidate) == 'function') {
+                        __doPostBack(options.eventTarget, options.eventArgument);
+                    }
+                }
+            }
+        </script>
+        <script type="text/javascript">
+             $(function () {
+                 getClientBalanceAmt();
+                // Empstatus();
+                 setInterval(
+                    function () { getClientBalanceAmt() }
+                   , 200000);
+             });
+             var Empstatus = function () {
+                 // $modelBlockUIMaster();              
+                 serverCall('<%=Resources.Resource.ApplicationName%>/Design/Common/Services/CommonServices.asmx/EmpStatus', {  }, function (response) {
+                    var $responseData = JSON.parse(response);
+                    if ($responseData.status == false) {
+                        alert("Please  Contact To Itdose  Team  Your Account is  Deactive");                      
+                       $modelBlockUIMaster();
+                     
+                    }
+
+                });
+                //$modelUnBlockUIMaster();
+            }
+            
+             function getClientBalanceAmt() {                              
+                 Empstatus();                
+                 var RoleID = '<%=UserInfo.RoleID%>'
+                 if (RoleID == "140") {
+                     $('#txtDynamicSearchMaster').hide();
+                     $('#btnSearchMaster').hide();
+                     $('#lblsampleTracker').hide();                    
+                     //alert(RoleID);
+                 }
+
+                serverCall('<%=Request.Url.Scheme %>://<%=Request.Url.Host %>:<%=Request.Url.Port %>/<%=Request.Url.AbsolutePath.Split('/')[1] %>/Design/Common/Services/CommonServices.asmx/getClientBalanceAmt', {}, function (response) {
+                    var $clientBalanceAmt = JSON.parse(response);
+                    if ($clientBalanceAmt.status) {
+                        if ($clientBalanceAmt.response != "") {
+                            $('#lblMasterBalanceAmount').text($clientBalanceAmt.response);
+                            $('#spnMasterBalanceAmt').show();
+                            if ($clientBalanceAmt.blink == "1") {
+                                blinker();
+                            }
+                            else {
+
+                            }
+                        }
+                        else {
+                            $('#spnMasterBalanceAmt,#lblMasterBalanceAmount').hide();
+                        }
+                    }
+                });
+
+            }
+            $(function () {
+            var Employeeid = '<%=UserInfo.ID%>';
+            var RoleID = '<%=UserInfo.RoleID%>'
+            var chatProxy = $.connection.notificationHub;
+            $.connection.hub.start().done(function () {
+                chatProxy.server.broadCastMessage(RoleID, Employeeid);
+            })
+
+                chatProxy.client.receiveMessage = function (Notification) {
+                    var NotificationData = JSON.parse(Notification);
+                    jQuery('.Ncount').text(NotificationData.length);
+                    jQuery("#NotificationBody").text('');
+                    if (NotificationData.length > 0) {
+                        var table = "<table id='tblNotification'  style='border-collapse:collapse;width:100%;color: #333;' rules='all' border='1'><tbody>";
+                        var $rowID = [];
+                        for (var i = 0; i < NotificationData.length; i++) {
+                           
+                            $rowID.push("<tr>");
+                            $rowID.push("<td style='display:none' id='notificationID'>"); $rowID.push(NotificationData[i].ID); $rowID.push("</td>");
+                            $rowID.push("<td class='GridViewLabItemStyle'  onclick='ReadNotification(this);'  style='width:100%;font-size: 11px;text-align:left'> ");
+                            
+                            
+                           if(NotificationData[i].PagePath!="")
+                              {
+                            $rowID.push("<a style='text-decoration:none;' href=' ");
+                            $rowID.push('<%=Request.Url.Scheme %>'); $rowID.push(":"); $rowID.push("//"); $rowID.push('<%=Request.Url.Host %>'); $rowID.push(":"); $rowID.push('<%=Request.Url.Port %>'); $rowID.push("/");
+                            $rowID.push('<%=Request.Url.AbsolutePath.Split('/')[1] %>');
+                               $rowID.push(NotificationData[i].PagePath); $rowID.push("'>");
+                               $rowID.push(NotificationData[i].Message); $rowID.push("</a>");
+                           }
+                           else {
+                               $rowID.push(NotificationData[i].Message);
+                           }
+                           $rowID.push("</td>");
+                           $rowID.push("</tr>");
+
+                       }
+                       $rowID.push("</tbody></table>");
+                       $rowID = $rowID.join("");
+                       var aa = jQuery("#NotificationBody").append($rowID)
+				$('#divNotification').html($rowID);
+                       toastNotification("Info", aa, "");
+                   };
+                };
+            });
+          function GetNotificationDetail() {
+	//$('#divNotification').find('.Notification-Read').show();
+               $('#divNotification').slideToggle();
+           }
+          
+ function ReadNotification(ctrl)
+           {
+
+               var NotificationId = $(ctrl).prev().text();
+
+		 $.ajax({
+                url: '<%=Util.getApp("ApplicationHost") %>/Design/Common/Services/CommonServices.asmx/ReadNotification',
+                async: true,
+                data: JSON.stringify({NotificationId: NotificationId}),
+                contentType: "application/json; charset=utf-8",
+                type: "POST", // data has to be Posted 
+                timeout: 120000,
+                dataType: "json",
+		global:false,
+                success: function (result) {
+                    
+                }
+            });
+               alert($(ctrl).text());
+               $(ctrl).closest('tr').remove();
+		  $('#Ncount').text($('#divNotification tr').length);
+           }
+        </script>
+        <script type="text/javascript">
+            $(document)
+                .ajaxSend(function (event, jqxhr, settings) {
+                    jqxhr.setRequestHeader("AuthToken", "<%=UserInfo.ID%>");
+                });
+        </script>
+        <script type="text/javascript">
+            $(function () {
+                //checkSessionState();
+                //setInterval(
+                //   function () { checkSessionState() }
+                //   , 10000);
+            });
+            function checkSessionState() {
+                var UserID_Cookies = ReadCookie("LabUserID");
+                var txtUserID = jQuery('#hfSessionUserID').val();
+                if (UserID_Cookies != txtUserID) {
+                    window.location.href = "<%=Request.Url.Scheme %>://<%=Request.Url.Host %>:<%=Request.Url.Port %>/<%=Request.Url.AbsolutePath.Split('/')[1] %>/LogOut.aspx";
+
+                }
+            }
+            function ReadCookie(cookieName) {
+                var theCookie = " " + document.cookie;
+                var ind = theCookie.indexOf(" " + cookieName + "=");
+                if (ind == -1) ind = theCookie.indexOf(";" + cookieName + "=");
+                if (ind == -1 || cookieName == "") return "";
+                var ind1 = theCookie.indexOf(";", ind + 1);
+                if (ind1 == -1) ind1 = theCookie.length;
+                return unescape(theCookie.substring(ind + cookieName.length + 2, ind1));
+            }
+            var markRoleAsDefault = function (roleID) {
+                var roleID = Number(roleID);
+                serverCall('<%=Resources.Resource.ApplicationName%>/Design/Common/Services/CommonServices.asmx/SetDefaultRole', { roleID: roleID }, function (response) {
+
+            });
+            }
+            var changeRole = function (roleID) {
+               // $modelBlockUIMaster();
+                $modelBlockUI();
+                serverCall('<%=Resources.Resource.ApplicationName%>/Design/Common/Services/CommonServices.asmx/ChangeRole', { roleID: roleID }, function (response) {
+                    var $responseData = JSON.parse(response);
+                    if ($responseData.status) {
+                        window.location.href = "<%=Request.Url.Scheme %>://<%=Request.Url.Host %>:<%=Request.Url.Port %>/<%=Request.Url.AbsolutePath.Split('/')[1] %>/Design/Welcome.aspx";
+
+                    }
+
+                },'',false);
+                //$modelUnBlockUIMaster();
+            }
+        </script>
+	
+	 <style>
+            #divNotification > tr{
+            background-color:whitesmoke;
+            color:#000;
+	   opacity:0.7;
+	box-shadow:5px 5px 5px #ccc;
+	margin:15px;
+cursor:pointer;
+            }
+
+            #divNotification > tr:hover{
+            background-color:#ccc;
+            color:#000;
+		font-weight:600;
+            }
+	 #divNotification > tr > td{
+            border:none;padding-bottom:7px;
+            }
+
+	 .Notification-Read {
+            float:right;
+            vertical-align:middle;
+            height:10px;width:10px;
+            cursor:pointer;
+	        margin-right: 3px;
+            }
+
+	#divNotification > tr > .GridViewLabItemStyle{
+	padding:15px;
+
+	}
+        </style>
+    </form>
+
+</body>
+</html>

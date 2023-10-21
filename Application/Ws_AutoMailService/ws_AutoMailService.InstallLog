@@ -1,0 +1,60 @@
+﻿Installing assembly 'D:\EmailingApplication\Durga\AutoEmail\AutoEmail\ws_AutoMailService\bin\Debug\ws_AutoMailService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\EmailingApplication\Durga\AutoEmail\AutoEmail\ws_AutoMailService\bin\Debug\ws_AutoMailService.exe
+   logfile = D:\EmailingApplication\Durga\AutoEmail\AutoEmail\ws_AutoMailService\bin\Debug\ws_AutoMailService.InstallLog
+Installing service ws_AutoMailService...
+Service ws_AutoMailService has been successfully installed.
+Creating EventLog source ws_AutoMailService in log Application...
+Committing assembly 'D:\EmailingApplication\Durga\AutoEmail\AutoEmail\ws_AutoMailService\bin\Debug\ws_AutoMailService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\EmailingApplication\Durga\AutoEmail\AutoEmail\ws_AutoMailService\bin\Debug\ws_AutoMailService.exe
+   logfile = D:\EmailingApplication\Durga\AutoEmail\AutoEmail\ws_AutoMailService\bin\Debug\ws_AutoMailService.InstallLog
+Installing assembly 'D:\EmailingApplication\AutoMail\ws_AutoMailService\bin\Debug\ws_AutoMailService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\EmailingApplication\AutoMail\ws_AutoMailService\bin\Debug\ws_AutoMailService.exe
+   logfile = D:\EmailingApplication\AutoMail\ws_AutoMailService\bin\Debug\ws_AutoMailService.InstallLog
+Installing service ws_AutoMailService...
+Service ws_AutoMailService has been successfully installed.
+Creating EventLog source ws_AutoMailService in log Application...
+Committing assembly 'D:\EmailingApplication\AutoMail\ws_AutoMailService\bin\Debug\ws_AutoMailService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\EmailingApplication\AutoMail\ws_AutoMailService\bin\Debug\ws_AutoMailService.exe
+   logfile = D:\EmailingApplication\AutoMail\ws_AutoMailService\bin\Debug\ws_AutoMailService.InstallLog
+Uninstalling assembly 'D:\EmailingApplication\AutoMail\ws_AutoMailService\bin\Debug\ws_AutoMailService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\EmailingApplication\AutoMail\ws_AutoMailService\bin\Debug\ws_AutoMailService.exe
+   logfile = D:\EmailingApplication\AutoMail\ws_AutoMailService\bin\Debug\ws_AutoMailService.InstallLog
+Removing EventLog source ws_AutoMailService.
+Service ws_AutoMailService is being removed from the system...
+Service ws_AutoMailService was successfully removed from the system.
+Installing assembly 'C:\ITDOSE\LiveCode\Oncquest\Application\Ws_AutoMailService\Ws_AutoMailService\ws_AutoMailService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ITDOSE\LiveCode\Oncquest\Application\Ws_AutoMailService\Ws_AutoMailService\ws_AutoMailService.exe
+   logfile = C:\ITDOSE\LiveCode\Oncquest\Application\Ws_AutoMailService\Ws_AutoMailService\ws_AutoMailService.InstallLog
+Installing service ws_AutoMailServiceNew...
+Service ws_AutoMailServiceNew has been successfully installed.
+Creating EventLog source ws_AutoMailServiceNew in log Application...
+Committing assembly 'C:\ITDOSE\LiveCode\Oncquest\Application\Ws_AutoMailService\Ws_AutoMailService\ws_AutoMailService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ITDOSE\LiveCode\Oncquest\Application\Ws_AutoMailService\Ws_AutoMailService\ws_AutoMailService.exe
+   logfile = C:\ITDOSE\LiveCode\Oncquest\Application\Ws_AutoMailService\Ws_AutoMailService\ws_AutoMailService.InstallLog
+Installing assembly 'C:\ITDOSE\UAT_Ver1\Application\Ws_AutoMailService\ws_AutoMailService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\ITDOSE\UAT_Ver1\Application\Ws_AutoMailService\ws_AutoMailService.InstallLog
+   assemblypath = C:\ITDOSE\UAT_Ver1\Application\Ws_AutoMailService\ws_AutoMailService.exe
+Installing service ws_AutoMailServiceNew...
+Service ws_AutoMailServiceNew has been successfully installed.
+Creating EventLog source ws_AutoMailServiceNew in log Application...
+Committing assembly 'C:\ITDOSE\UAT_Ver1\Application\Ws_AutoMailService\ws_AutoMailService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\ITDOSE\UAT_Ver1\Application\Ws_AutoMailService\ws_AutoMailService.InstallLog
+   assemblypath = C:\ITDOSE\UAT_Ver1\Application\Ws_AutoMailService\ws_AutoMailService.exe

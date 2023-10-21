@@ -1,0 +1,4 @@
+https://103.229.250.200/smpp/sendsms?username=idose&password=idose007&to=917974560640&from=ITDOSE&text=Dear Mr.ISRAIL, you will get your report on 29-Nov-2022 5:30pm .  29-11-2022 15:27:05
+https://103.229.250.200/smpp/sendsms?username=idose&password=idose007&to=917974560640&from=ITDOSE&text=Dear Mr.ISRAIL, you will get your report on 29-Nov-2022 5:30pm .  29-11-2022 15:27:06
+https://103.229.250.200/smpp/sendsms?username=idose&password=idose007&to=919774560640&from=ITDOSE&text=Dear Mr.ISRAIL, you will get your report on 29-Nov-2022 6:00pm .  29-11-2022 15:45:41
+https://103.229.250.200/smpp/sendsms?username=idose&password=idose007&to=918430290206&from=ITDOSE&text=Dear VDUMMY,ITDose Infosystems Pvt Ltd. is pleased to serve you, Now You can view your reports on your smart phone anytime, anywhere, just click on http://9url.in/S2V2T5E9ZE ITDose Infosystems Pvt Ltd.  29-11-2022 19:20:59

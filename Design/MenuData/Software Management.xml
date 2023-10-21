@@ -1,0 +1,527 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Menu>
+    <ID>84</ID>
+    <MenuName>Accession</MenuName>
+    <Items>
+      <URLName>/Design/Lab/Lab_PrescriptionOPD.aspx</URLName>
+      <DispName>Work Order</DispName>
+      <MenuID>84</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Lab/Lab_PrescriptionOPDEditInfo.aspx</URLName>
+      <DispName>Edit Info</DispName>
+      <MenuID>84</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Lab/Lab_PrescriptionOPDEdit.aspx</URLName>
+      <DispName>Work Order Edit</DispName>
+      <MenuID>84</MenuID>
+    </Items>
+  </Menu>
+  <Menu>
+    <ID>136</ID>
+    <MenuName>Sales Master</MenuName>
+    <Items>
+      <URLName>/Design/Sales/DesignationMaster.aspx</URLName>
+      <DispName>Designation Master</DispName>
+      <MenuID>136</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Sales/SetTarget.aspx</URLName>
+      <DispName>Set Monthly Target</DispName>
+      <MenuID>136</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Sales/DesignationEmployeeMaster.aspx</URLName>
+      <DispName>Tagging of Employee with Designation</DispName>
+      <MenuID>136</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Master/LocaltionMaster.aspx</URLName>
+      <DispName>Sales Location Master</DispName>
+      <MenuID>136</MenuID>
+    </Items>
+  </Menu>
+  <Menu>
+    <ID>139</ID>
+    <MenuName>Marketing Master</MenuName>
+    <Items>
+      <URLName>/Design/Master/CampMaster.aspx</URLName>
+      <DispName>CampMaster</DispName>
+      <MenuID>139</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/EDP/Discountmaster.aspx</URLName>
+      <DispName>Discount Master Employee Wise</DispName>
+      <MenuID>139</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/master/discountmaster.aspx</URLName>
+      <DispName>Discount Master Category Wise</DispName>
+      <MenuID>139</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Master/CampEditMaster.aspx</URLName>
+      <DispName>Camp Master Edit</DispName>
+      <MenuID>139</MenuID>
+    </Items>
+  </Menu>
+  <Menu>
+    <ID>138</ID>
+    <MenuName>Franchise Master</MenuName>
+    <Items>
+      <URLName>/Design/Master/Centremaster.aspx</URLName>
+      <DispName>Centre Master</DispName>
+      <MenuID>138</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Master/PUPMaster.aspx</URLName>
+      <DispName>Panel Master</DispName>
+      <MenuID>138</MenuID>
+    </Items>
+  </Menu>
+  <Menu>
+    <ID>137</ID>
+    <MenuName>Ratelist Master</MenuName>
+    <Items>
+      <URLName>/Design/EDP/PanelWiseItemRate.aspx</URLName>
+      <DispName>Panel Wise RateList</DispName>
+      <MenuID>137</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/EDP/ItemWiseRateList.aspx</URLName>
+      <DispName>Item Wise Rate List</DispName>
+      <MenuID>137</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Master/ItemWiseRateList.aspx</URLName>
+      <DispName>Schedule Rate List</DispName>
+      <MenuID>137</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/EDP/TransferRate.aspx</URLName>
+      <DispName>Transfer Rate</DispName>
+      <MenuID>137</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/master/RateTypeMaster.aspx</URLName>
+      <DispName>RateTypeMaster</DispName>
+      <MenuID>137</MenuID>
+    </Items>
+  </Menu>
+  <Menu>
+    <ID>68</ID>
+    <MenuName>Dispatch</MenuName>
+    <Items>
+      <URLName>/Design/Lab/PatientLabSearch.aspx</URLName>
+      <DispName>Patient Lab Search</DispName>
+      <MenuID>68</MenuID>
+    </Items>
+  </Menu>
+  <Menu>
+    <ID>7</ID>
+    <MenuName>Reports</MenuName>
+    <Items>
+      <URLName>/Design/frontoffice/ReferDoctorReport.aspx</URLName>
+      <DispName>Add New Doctor Report</DispName>
+      <MenuID>7</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/OPD/HomeVisitBoyReport.aspx</URLName>
+      <DispName>Collection Boy Report</DispName>
+      <MenuID>7</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Lab/RateListReport.aspx</URLName>
+      <DispName>RateTypeMaster</DispName>
+      <MenuID>7</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/OPD/CollectionReportNew.aspx</URLName>
+      <DispName>Collection Report User Wise</DispName>
+      <MenuID>7</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/EDP/EmployeeAccessReport.aspx</URLName>
+      <DispName>Employee Login Access</DispName>
+      <MenuID>7</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/EDP/MenuAccessReport.aspx</URLName>
+      <DispName>Role Wise Menu Access</DispName>
+      <MenuID>7</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Master/PatientInfoReport.aspx</URLName>
+      <DispName>Patient Info</DispName>
+      <MenuID>7</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Lab/DoctorReferalData.aspx</URLName>
+      <DispName>Doctor Referal Data</DispName>
+      <MenuID>7</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Lab/Package_Inclusion_Report.aspx</URLName>
+      <DispName>Package_Inclusion_Report</DispName>
+      <MenuID>7</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/OPD/CustomerRegistrationReport.aspx</URLName>
+      <DispName>Customer Registration Report</DispName>
+      <MenuID>7</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/OPD/ServiceWiseCollectionReport.aspx</URLName>
+      <DispName>ServiceWise Collection Report</DispName>
+      <MenuID>7</MenuID>
+    </Items>
+  </Menu>
+  <Menu>
+    <ID>114</ID>
+    <MenuName>Outsource</MenuName>
+    <Items>
+      <URLName>/Design/OPD/OutSourceLabRateListMaster.aspx</URLName>
+      <DispName>Outsource Test Master</DispName>
+      <MenuID>114</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/opd/OutsourceLabMaster.aspx</URLName>
+      <DispName>OutSource Lab Master</DispName>
+      <MenuID>114</MenuID>
+    </Items>
+  </Menu>
+  <Menu>
+    <ID>77</ID>
+    <MenuName>Master</MenuName>
+    <Items>
+      <URLName>/Design/FrontOffice/DoctorReferalCentreMapping.aspx</URLName>
+      <DispName>DoctorReferalCentreMapping.aspx</DispName>
+      <MenuID>77</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Investigation/AliasMaster.aspx</URLName>
+      <DispName>Alias Master</DispName>
+      <MenuID>77</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Master/ImportExportRateList.aspx</URLName>
+      <DispName>Import Rate List</DispName>
+      <MenuID>77</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/OPD/Bank.aspx</URLName>
+      <DispName>Bank Master</DispName>
+      <MenuID>77</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Employee/EmployeeRegistration.aspx</URLName>
+      <DispName>Employee master</DispName>
+      <MenuID>77</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/employee/EditEmployee.aspx</URLName>
+      <DispName>Edit Employee</DispName>
+      <MenuID>77</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Centre/CentreAccess.aspx</URLName>
+      <DispName>Centre Access</DispName>
+      <MenuID>77</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/FrontOffice/DoctorReferal.aspx</URLName>
+      <DispName>Doctor Master</DispName>
+      <MenuID>77</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Master/Fieldboy_Master.aspx</URLName>
+      <DispName>Field Boy Master</DispName>
+      <MenuID>77</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/master/doctor_booking.aspx</URLName>
+      <DispName>Doctor Booking Merge</DispName>
+      <MenuID>77</MenuID>
+    </Items>
+  </Menu>
+  <Menu>
+    <ID>78</ID>
+    <MenuName>Master List Report</MenuName>
+    <Items>
+      <URLName>/Design/OPD/Panel_ListReport.aspx</URLName>
+      <DispName>Panel List Report</DispName>
+      <MenuID>78</MenuID>
+    </Items>
+  </Menu>
+  <Menu>
+    <ID>80</ID>
+    <MenuName>Mail</MenuName>
+    <Items>
+      <URLName>/Design/Lab/MailStatus.aspx</URLName>
+      <DispName>Mail Status</DispName>
+      <MenuID>80</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Lab/MailStatus.aspx</URLName>
+      <DispName>Manual Bulk Email</DispName>
+      <MenuID>80</MenuID>
+    </Items>
+  </Menu>
+  <Menu>
+    <ID>83</ID>
+    <MenuName>Change Password</MenuName>
+    <Items>
+      <URLName>/Design/Master/LedgerPassword.aspx</URLName>
+      <DispName>Change Ledger Password</DispName>
+      <MenuID>83</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Employee/ChangePassword.aspx</URLName>
+      <DispName>Change Password</DispName>
+      <MenuID>83</MenuID>
+    </Items>
+  </Menu>
+  <Menu>
+    <ID>12</ID>
+    <MenuName>Collection</MenuName>
+    <Items>
+      <URLName>/Design/EDP/DiscountAfterBill.aspx</URLName>
+      <DispName>DiscountAfterBill</DispName>
+      <MenuID>12</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Lab/OPDRefund.aspx</URLName>
+      <DispName>opd refund</DispName>
+      <MenuID>12</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Lab/Receipt_Cancellation.aspx</URLName>
+      <DispName>BillCancel</DispName>
+      <MenuID>12</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Lab/ChangeSampleStatus.aspx</URLName>
+      <DispName>Change Sample Status</DispName>
+      <MenuID>12</MenuID>
+    </Items>
+  </Menu>
+  <Menu>
+    <ID>99</ID>
+    <MenuName>Tools</MenuName>
+    <Items>
+      <URLName>/Design/Lab/ChangeBarCode.aspx</URLName>
+      <DispName>ChangeBarCode</DispName>
+      <MenuID>99</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Lab/ChangeSampleStatus.aspx</URLName>
+      <DispName>Change Sample Status</DispName>
+      <MenuID>99</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/master/panellabreportsetting.aspx</URLName>
+      <DispName>Lab Report Setting</DispName>
+      <MenuID>99</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Lab/RemoveLogisticTransaction.aspx</URLName>
+      <DispName>Remove Logistic Transaction</DispName>
+      <MenuID>99</MenuID>
+    </Items>
+  </Menu>
+  <Menu>
+    <ID>21</ID>
+    <MenuName>Laboratory</MenuName>
+    <Items>
+      <URLName>/Design/investigation/InvestigationAutoApproveCentre.aspx</URLName>
+      <DispName>Auto Validation Master</DispName>
+      <MenuID>21</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/investigation/InvestigationAutoApproveMaster.aspx</URLName>
+      <DispName>Auto Approved Signature Master</DispName>
+      <MenuID>21</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Investigation/Manage_isNabl.aspx</URLName>
+      <DispName>Manage IsNabl</DispName>
+      <MenuID>21</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Investigation/requiredFieldMaster.aspx</URLName>
+      <DispName>Required Field Master</DispName>
+      <MenuID>21</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Investigation/FamilyPackageMaster.aspx</URLName>
+      <DispName>Family Package Master</DispName>
+      <MenuID>21</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Investigation/InvestigationConcernForm.aspx</URLName>
+      <DispName>Investigation Concern Form</DispName>
+      <MenuID>21</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Investigation/HistotempleteMaster.aspx</URLName>
+      <DispName>Histo templete</DispName>
+      <MenuID>21</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Master/Investigation_MachineMaster.aspx</URLName>
+      <DispName>InvestigationMachineMaster</DispName>
+      <MenuID>21</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Master/MachineMaster.aspx</URLName>
+      <DispName>MachineMaster</DispName>
+      <MenuID>21</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Investigation/InvestigationConcernForm.aspx</URLName>
+      <DispName>InvestigationConcernForm</DispName>
+      <MenuID>21</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Investigation/LabObservationComments.aspx</URLName>
+      <DispName>Observation Comment</DispName>
+      <MenuID>21</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Investigation/InvTemplate.aspx</URLName>
+      <DispName>Investigation Template</DispName>
+      <MenuID>21</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Investigation/AddInterpretation.aspx</URLName>
+      <DispName>Interpretation</DispName>
+      <MenuID>21</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Investigation/ManagePackage.aspx</URLName>
+      <DispName>Package Master</DispName>
+      <MenuID>21</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Investigation/InvComments.aspx</URLName>
+      <DispName>Add Comments</DispName>
+      <MenuID>21</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Lab/ManageApproval.aspx</URLName>
+      <DispName>DR. Approval Master</DispName>
+      <MenuID>21</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Investigation/ManageOrdering.aspx</URLName>
+      <DispName>Manage Ordering</DispName>
+      <MenuID>21</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Investigation/labobservation_Help.aspx</URLName>
+      <DispName>Help Option Master</DispName>
+      <MenuID>21</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/OPD/OrganismMaster.aspx</URLName>
+      <DispName>Organism Master</DispName>
+      <MenuID>21</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Investigation/MapOrganismAntibiotics.aspx</URLName>
+      <DispName>Antibiotic Master</DispName>
+      <MenuID>21</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Centre/Panel_ReportHeader.aspx</URLName>
+      <DispName>Edit Header</DispName>
+      <MenuID>21</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Lab/FormulaMaster.aspx</URLName>
+      <DispName>Formula Master</DispName>
+      <MenuID>21</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Investigation/ManageDeliveryDays.aspx</URLName>
+      <DispName>Manage Delivery Days</DispName>
+      <MenuID>21</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Centre/ManageHoliday.aspx</URLName>
+      <DispName>Manage Holiday</DispName>
+      <MenuID>21</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Investigation/ManageInvestigation.aspx</URLName>
+      <DispName>Investigation Master</DispName>
+      <MenuID>21</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Investigation/Manage_isNabl.aspx</URLName>
+      <DispName>Manage NABL Test</DispName>
+      <MenuID>21</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Investigation/TestCentreMapping.aspx</URLName>
+      <DispName>Test Center Mapping</DispName>
+      <MenuID>21</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Investigation/LabObservationComments.aspx</URLName>
+      <DispName>Observation Comment Master</DispName>
+      <MenuID>21</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Investigation/DepartmentMaster.aspx</URLName>
+      <DispName>Department Master</DispName>
+      <MenuID>21</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Investigation/sampletypemaster.aspx</URLName>
+      <DispName>SampleType Master</DispName>
+      <MenuID>21</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Investigation/SampleContainerMaster.aspx</URLName>
+      <DispName>Sample Container Master</DispName>
+      <MenuID>21</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Investigation/ConcentFormMaster.aspx</URLName>
+      <DispName>Concent Form Master</DispName>
+      <MenuID>21</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Investigation/MicroMaster.aspx</URLName>
+      <DispName>Organism And Antibiotic Master</DispName>
+      <MenuID>21</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Investigation/breakPoint.aspx</URLName>
+      <DispName>Organism And Antibiotic BreakPoint</DispName>
+      <MenuID>21</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Investigation/TransferMachineRanges.aspx</URLName>
+      <DispName>Transfer Machine Ranges</DispName>
+      <MenuID>21</MenuID>
+    </Items>
+  </Menu>
+  <Menu>
+    <ID>14</ID>
+    <MenuName>Re-print</MenuName>
+    <Items>
+      <URLName>/Design/lab/PrintSticker.aspx</URLName>
+      <DispName>Print Sticker</DispName>
+      <MenuID>14</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Lab/OPDRePrint.aspx</URLName>
+      <DispName>Receipt/SRS Reprint</DispName>
+      <MenuID>14</MenuID>
+    </Items>
+  </Menu>
+</NewDataSet>

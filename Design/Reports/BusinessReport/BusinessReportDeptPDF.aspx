@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="BusinessReportDeptPDF.aspx.cs" Inherits="Design_OPD_BusinessReportDeptPDF" %>

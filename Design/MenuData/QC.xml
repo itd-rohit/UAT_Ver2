@@ -1,0 +1,53 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Menu>
+    <ID>93</ID>
+    <MenuName>QC</MenuName>
+    <image>data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/4QAiRXhpZgAATU0AKgAAAAgAAQESAAMAAAABAAEAAAAAAAD/2wBDAAIBAQIBAQICAgICAgICAwUDAwMDAwYEBAMFBwYHBwcGBwcICQsJCAgKCAcHCg0KCgsMDAwMBwkODw0MDgsMDAz/2wBDAQICAgMDAwYDAwYMCAcIDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAz/wAARCAATABQDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD9tPjX8ftN+CnhLVtSk0nWPE95pMKzyaR4ftBeahIrMAMKzJGvB3fvJEyqsRnpX4tftrf8FUtQ8Yf8FLfAvj7QdQ+L/hH4f+GLzQpta8MXVy+nzXUdte+fdD7JHcmCQTQEAb2AkBAbCnNe2/tlf8FS/wDhW2ga5oNpJcJrE+vXranGUdfMXz5Qnz7TkbUiUY6BhjIGK+Yv2aPgvD+33+1r4J0rwPoNj4s8M+FPEOm6l4ktWuIrfyNHkvonvkdJ3R2Rf3zbEyWNzJtBJNfnuc5tiMXVWEwV7pxez3v38uvptrc/rrww4HyTIcLWzfiaKcZU6kU+eOi5Hd8rVk27Km905XvpZ/qP8FP+C43wh+OXhe51XStC8f2dva3bWbJe6Xaq5ZURyQEunG3EgHJByDxjBJXsHg//AIJ0fA/wBpslno/wq8M6fbTSmd447c4ZyFUty3oqj8KK+xoxxvIvaSi31snY/nnMMRwxLETlgqNaNO/uqUouSXm1o2fnr/wUE/Zu8D/Brwz+1R/wjvh61tZvI/4SSG4neS8uLK/u7qKW4lt5ZmeS3DvLIdkLIg3kBQOK+of+CPXhDSdJ+DVreWel6fZ3cemxqZ7e3SGSbzWVpDIygGRiYk5fJGDgjJyUV1+ziveS1PnHjcRKHsZVJOPa7t92x9k+c395vzoooqrkcq7H/9k=</image>
+    <Items>
+      <URLName>/Design/Quality/ControlLotMaster.aspx</URLName>
+      <DispName>Control Master</DispName>
+      <MenuID>93</MenuID>
+    </Items>
+  </Menu>
+  <Menu>
+    <ID>118</ID>
+    <MenuName>Quality Control Report</MenuName>
+    <image>data:image/jpg;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAIAAABL1vtsAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAv9JREFUOE+llG9Ik0EYwK8EQQOxQKoZFkEIQRkVSR8ixIl+cJSkH6S+CCopaFhiYYoTE0HHFCc40WEUsxLtD/nBLXFTnDIVdaIba6KTEB0qxt7jNt4d7/Xsn7ncROjlx3Hvce/vnnueu/cEYwz95wMKw8+dvA5jniIiue3Gyg+LTuKByYcfBEOFqll07x3K7EMZkZF8Mtp2IyqKVHMoXd0yZNVb93QrRGcL4u1jvXknVapHOf1TRyiKe+dQmnrCAotQhtcYtgdZY+5NWPmRYgo97D8qCq8ivU+zuCv0ZjoLkLMoBLY0KFHMHUORBood9r0C1yRgaWKAOhGuT2Krekn77HEUas3CVthswWBGuwk9GJpcpxHT6c+FxuSAGQJ2CNw+2wK3Jdiny2rll7Kr5kcGqUXjxW5klN/XeYvqU3g3IqhzuVLElUeFUIp+v07YkyZx9Um44SKuOQtzhA1TeAUbKOBexHBVcQFexnNlUdyreGafYhYtNWvpMoQwjavPkPZUl/qJZ37Ae7iDUQRzQSmjngACpZYR3JDEaxpw7XksvQAtr22AWIhSDK+k5Vo4hUDZPtCzjsJngnNTcG74YXgb9uL++hy8RH7joMJX1MFCrjIWIg9ymnsWjetEvE4GCxL5TWh5nRxK7lJlg4W03jqkUOdwJYgrOxkA8voU4dpz1KbnDUp+sos3dNGVcZBCFvhRGZGlhG7EX9RgwL7OpmfhM5aKqE3HG7p5Qw+0dHUCpLgp2T1QQtruhMtF6OmhKwZIHj+mgG2TtttEnsKPd0CCPeZhXt9KZNdDFBOWnTCHb31MqD7FfhnY7qrgsApbZsFu5CqiYX33l3KQBhT+y978zapbdowsHmDZMfpjZL4gdqk4zlESReD6NCXjxsu4LpGf7OG1b/5WpKjX98sR94EolD4kVqOsTiRWfMyOofUi19scl0riep/vHq7HTVdI89VAFPAjeKycye+cyYf2X2ZzlSaJ0qztbfT0ZJDuLB+ZpPM+UdyF7AYUkS7oMcf/AMkdAOj6D6DkAAAAAElFTkSuQmCC</image>
+    <Items>
+      <URLName>/Design/OPD/HighVolumeReport.aspx</URLName>
+      <DispName>High Volume Test Report</DispName>
+      <MenuID>118</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Lab/AbnormalValueStatic.aspx</URLName>
+      <DispName>Critical Low and High Report</DispName>
+      <MenuID>118</MenuID>
+    </Items>
+  </Menu>
+  <Menu>
+    <ID>7</ID>
+    <MenuName>Reports</MenuName>
+    <image>data:image/jpg;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAIAAABL1vtsAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAv9JREFUOE+llG9Ik0EYwK8EQQOxQKoZFkEIQRkVSR8ixIl+cJSkH6S+CCopaFhiYYoTE0HHFCc40WEUsxLtD/nBLXFTnDIVdaIba6KTEB0qxt7jNt4d7/Xsn7ncROjlx3Hvce/vnnueu/cEYwz95wMKw8+dvA5jniIiue3Gyg+LTuKByYcfBEOFqll07x3K7EMZkZF8Mtp2IyqKVHMoXd0yZNVb93QrRGcL4u1jvXknVapHOf1TRyiKe+dQmnrCAotQhtcYtgdZY+5NWPmRYgo97D8qCq8ivU+zuCv0ZjoLkLMoBLY0KFHMHUORBood9r0C1yRgaWKAOhGuT2Krekn77HEUas3CVthswWBGuwk9GJpcpxHT6c+FxuSAGQJ2CNw+2wK3Jdiny2rll7Kr5kcGqUXjxW5klN/XeYvqU3g3IqhzuVLElUeFUIp+v07YkyZx9Um44SKuOQtzhA1TeAUbKOBexHBVcQFexnNlUdyreGafYhYtNWvpMoQwjavPkPZUl/qJZ37Ae7iDUQRzQSmjngACpZYR3JDEaxpw7XksvQAtr22AWIhSDK+k5Vo4hUDZPtCzjsJngnNTcG74YXgb9uL++hy8RH7joMJX1MFCrjIWIg9ymnsWjetEvE4GCxL5TWh5nRxK7lJlg4W03jqkUOdwJYgrOxkA8voU4dpz1KbnDUp+sos3dNGVcZBCFvhRGZGlhG7EX9RgwL7OpmfhM5aKqE3HG7p5Qw+0dHUCpLgp2T1QQtruhMtF6OmhKwZIHj+mgG2TtttEnsKPd0CCPeZhXt9KZNdDFBOWnTCHb31MqD7FfhnY7qrgsApbZsFu5CqiYX33l3KQBhT+y978zapbdowsHmDZMfpjZL4gdqk4zlESReD6NCXjxsu4LpGf7OG1b/5WpKjX98sR94EolD4kVqOsTiRWfMyOofUi19scl0riep/vHq7HTVdI89VAFPAjeKycye+cyYf2X2ZzlSaJ0qztbfT0ZJDuLB+ZpPM+UdyF7AYUkS7oMcf/AMkdAOj6D6DkAAAAAElFTkSuQmCC</image>
+    <Items>
+      <URLName>/Design/OPD/LabInvestigationAnalysisReport.aspx</URLName>
+      <DispName>Investigation Analysis Report</DispName>
+      <MenuID>7</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/EDP/TurnAroundTime.aspx</URLName>
+      <DispName>Turn Around Time Report</DispName>
+      <MenuID>7</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/OPD/LabObservationAnalysisReport.aspx</URLName>
+      <DispName>Observation Analysis Report</DispName>
+      <MenuID>7</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Lab/TATReport.aspx</URLName>
+      <DispName>TAT Report</DispName>
+      <MenuID>7</MenuID>
+    </Items>
+  </Menu>
+</NewDataSet>

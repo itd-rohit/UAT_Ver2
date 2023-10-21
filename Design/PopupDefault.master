@@ -1,0 +1,49 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="PopupDefault.master.cs" Inherits="Design_PopupDefault" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <style type="text/css">
+    .ItDoseButton{ COLOR: #333;font-size: 9pt; font-family:Verdana, Arial, sans-serif, sans-serif;BACKGROUND-IMAGE: url(Image/1.gif);cursor:pointer;}
+
+.ItDoseLinkButton{color:Navy; font-size:9pt; font-family:Verdana, Arial, sans-serif, sans-serif; font-weight:bold;}
+
+.ItDoseDropdownbox {	color:Navy;font-size:9pt;font-family:Verdana, Arial, sans-serif, sans-serif; }
+
+.ItDoseRadiobuttonlist {color:Navy;font-size:9pt;font-family:Verdana, Arial, sans-serif, sans-serif; }
+
+.ItDoseRadiobutton {color:Navy;font-size:9pt;font-family:Verdana, Arial, sans-serif, sans-serif; }
+
+.ItDoseCheckboxlistSpl{color:Blue; height:2px; font-size:9pt;font-family:Verdana, Arial, sans-serif, sans-serif;font-weight:bold;}
+.ItDoseCheckboxlist{color:Navy; height:2px; font-size:9pt;font-family:Verdana, Arial, sans-serif, sans-serif;}
+
+.ItDoseCheckbox{color:Navy; font-size:9pt;font-family:Verdana, Arial, sans-serif, sans-serif;}
+
+.ItDoseTextinputNum{color:Navy; border:solid 1 black; text-align:right;  font-size:9pt; font-family:Verdana, Arial, sans-serif, sans-serif; }
+
+.ItDoseTextinputText{color:Navy;border:solid 1 black; text-align:left;  font-size:9pt; font-family:Verdana, Arial, sans-serif, sans-serif; }
+
+.ItDoseLblError{color:red; font-size:9pt; font-family:Verdana, Arial, sans-serif, sans-serif; font-weight:bold }
+
+.ItDoseLabel{font-size:9pt; font-family:Verdana, Arial, sans-serif, sans-serif;}
+.ItDoseLabelSp{font-size:9pt; font-family:Verdana, Arial, sans-serif, sans-serif;color:Blue;}
+.ItDoseLabelBl{font-size:8.5pt; font-family:Verdana, Arial, sans-serif, sans-serif;color:Maroon;font-weight:bold;}
+
+    </style>
+    <base target="_self" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body  style=" font-family:Verdana; font-size:12px;">
+    <form id="form1" runat="server">
+    
+    <div>
+    
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

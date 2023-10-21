@@ -1,0 +1,33 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Menu>
+    <ID>142</ID>
+    <MenuName>ILC</MenuName>
+    <image>data:image/jpg;base64,</image>
+    <Items>
+      <URLName>/Design/Quality/ILCLabMaster.aspx</URLName>
+      <DispName>ILC Lab Master</DispName>
+      <MenuID>142</MenuID>
+    </Items>
+  </Menu>
+  <Menu>
+    <ID>145</ID>
+    <MenuName>Petty Cash Center</MenuName>
+    <image>data:image/jpg;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAATCAYAAACUef2IAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAK+SURBVDhPxZRNaBNBFMdrqYL4gRbRgqCCeNGKoN71oIheVAQpnjwoCCqepBUJC6JCaddkZ2bnzexussk2aTX4URUPCiUgaC9BsehBvYggiuLXpa0HGf+TGlBoSUoFA8MMsy+/93/v/XdbWv7XL+qNljCurvkUeFLqvZlMuOqfaPE8uU2q0GTjxJCODJf6DfPpuoiitXNKwH11Oohi41NoBAUmyOYN92mciNbNFXzPgpFgUoc5o4KsYb56AOi8WYMzWq/hXHZxro4wQWNMyLM4bxWSXJuECd0zayhAp3ypP4S1kmUMpcMWBJUJ+tuF/j73fL2jaXBfkiziQvXaUm0fmVDPAB3kUr1mvj6AhMehvAd3I/39ekVDcJ+UK6GMM6lSU0MKagvAk5zTOai8YxMC6gjST4SvbjaE2gDGaIu1EpNEKPedbUGUK9SGBdVvJYVVqGVYn/JJyaDXx5oCCxFsmhoIPQaohP4+tS+EkGoMSqtQ+NDzVQC1H4XUEx7RxjoYSbYjLgX7nfE8b+lfCS0YfzAhVHpcdbtu2G4DHKfSJuK4A8pPYI3WqhDqheM4C9CinYLULV8Gk/beLnj8UfpPb2cysjMbDxh49Lsn6PB0ZVo1TMpdsOAe9DqFGUwi2SusH1YUdpPLD2A2+qXEzGqMK/Cnr8Jhl/PN00HdMGxPp9PL6s8ynHYDpOxQAf3JfT1uXxycvyJhgnb2IeZgi+u6C2caBspuRe/vI/EX7KOMUxb7bYAnCsUhq/QzQBW0aMTjdAlzuBsXitaqFxsOWAjaDzU3oOxbYWDQJMWr9kP0HkO77Cm1vuYsCo5C7Xg+GfztKDrfEFwPEEJ0ZATt41wfcl1aXb83xrTKUmk51HcTKisOlaFYppoGzxRYqVTaLNw+lzLq1FGuAvtdmDN4yppOa7VanW/P5XJ5MeVyG34BXjzVRCo2S00AAAAASUVORK5CYII=</image>
+    <Items>
+      <URLName>/Design/PettyCash/CenterPettyAcceptance.aspx</URLName>
+      <DispName>Petty Cash Accept By Center</DispName>
+      <MenuID>145</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/PettyCash/CenterExpanses.aspx</URLName>
+      <DispName>Petty Cash Center Expanses</DispName>
+      <MenuID>145</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/PettyCash/PettyExpanseReport.aspx</URLName>
+      <DispName>Petty Cash ExpanseReport</DispName>
+      <MenuID>145</MenuID>
+    </Items>
+  </Menu>
+</NewDataSet>

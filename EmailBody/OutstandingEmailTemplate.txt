@@ -1,0 +1,14 @@
+﻿Patient Name :{PName} <br/>
+Age :{Age} , Gender :{Gender}<br/>
+Booking Centre :{Centre}<br/>
+Gross Amt. :{GrossAmt}<br/>
+Discount Amt. :{DiscAmt}<br/>
+Net Amt. :{NetAmt}<br/>
+Paid Amt. :{PaidAmt}<br/>
+<b>Outstanding Amt. :{OutstandingAmt}</b><br/>
+<b>Local Network Link</b><br/>
+{LocalApprovedLink}<br/>
+{LocalRejectLink}<br/><br/>
+<b>Internet Network Link</b><br/>
+{ApprovedLink}<br/>
+{RejectLink}

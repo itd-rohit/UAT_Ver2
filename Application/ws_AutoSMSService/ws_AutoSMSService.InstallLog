@@ -1,0 +1,39 @@
+﻿Installing assembly 'D:\EmailingApplication\AutoMail\ws_AutoSMSService\bin\Debug\ws_AutoSMSService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\EmailingApplication\AutoMail\ws_AutoSMSService\bin\Debug\ws_AutoSMSService.exe
+   logfile = D:\EmailingApplication\AutoMail\ws_AutoSMSService\bin\Debug\ws_AutoSMSService.InstallLog
+Installing service ws_AutoSMSService...
+Service ws_AutoSMSService has been successfully installed.
+Creating EventLog source ws_AutoSMSService in log Application...
+Committing assembly 'D:\EmailingApplication\AutoMail\ws_AutoSMSService\bin\Debug\ws_AutoSMSService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\EmailingApplication\AutoMail\ws_AutoSMSService\bin\Debug\ws_AutoSMSService.exe
+   logfile = D:\EmailingApplication\AutoMail\ws_AutoSMSService\bin\Debug\ws_AutoSMSService.InstallLog
+Installing assembly 'E:\Users\Admin\Downloads\AutoMail\AutoMail\ws_AutoSMSService\bin\Debug\ws_AutoSMSService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = E:\Users\Admin\Downloads\AutoMail\AutoMail\ws_AutoSMSService\bin\Debug\ws_AutoSMSService.exe
+   logfile = E:\Users\Admin\Downloads\AutoMail\AutoMail\ws_AutoSMSService\bin\Debug\ws_AutoSMSService.InstallLog
+Installing service ws_AutoSMSService_all...
+Service ws_AutoSMSService_all has been successfully installed.
+Creating EventLog source ws_AutoSMSService_all in log Application...
+Committing assembly 'E:\Users\Admin\Downloads\AutoMail\AutoMail\ws_AutoSMSService\bin\Debug\ws_AutoSMSService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = E:\Users\Admin\Downloads\AutoMail\AutoMail\ws_AutoSMSService\bin\Debug\ws_AutoSMSService.exe
+   logfile = E:\Users\Admin\Downloads\AutoMail\AutoMail\ws_AutoSMSService\bin\Debug\ws_AutoSMSService.InstallLog
+Installing assembly 'C:\ITDOSE\UAT_Ver1\Application\ws_AutoSMSService\ws_AutoSMSService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\ITDOSE\UAT_Ver1\Application\ws_AutoSMSService\ws_AutoSMSService.InstallLog
+   assemblypath = C:\ITDOSE\UAT_Ver1\Application\ws_AutoSMSService\ws_AutoSMSService.exe
+Installing service ws_AutoSMSService_uat...
+Service ws_AutoSMSService_uat has been successfully installed.
+Creating EventLog source ws_AutoSMSService_uat in log Application...
+Committing assembly 'C:\ITDOSE\UAT_Ver1\Application\ws_AutoSMSService\ws_AutoSMSService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\ITDOSE\UAT_Ver1\Application\ws_AutoSMSService\ws_AutoSMSService.InstallLog
+   assemblypath = C:\ITDOSE\UAT_Ver1\Application\ws_AutoSMSService\ws_AutoSMSService.exe

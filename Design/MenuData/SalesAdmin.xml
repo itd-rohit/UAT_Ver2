@@ -1,0 +1,529 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Menu>
+    <ID>84</ID>
+    <MenuName>Accession</MenuName>
+    <Items>
+      <URLName>/Design/Lab/Lab_PrescriptionOPD.aspx</URLName>
+      <DispName>Work Order</DispName>
+      <MenuID>84</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Lab/Lab_PrescriptionOPDEditInfo.aspx</URLName>
+      <DispName>Edit Info</DispName>
+      <MenuID>84</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Lab/Lab_PrescriptionOPDEdit.aspx</URLName>
+      <DispName>Work Order Edit</DispName>
+      <MenuID>84</MenuID>
+    </Items>
+  </Menu>
+  <Menu>
+    <ID>83</ID>
+    <MenuName>Change Password</MenuName>
+    <Items>
+      <URLName>/Design/Master/LedgerPassword.aspx</URLName>
+      <DispName>Change Ledger Password</DispName>
+      <MenuID>83</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Employee/ChangePassword.aspx</URLName>
+      <DispName>Change Password</DispName>
+      <MenuID>83</MenuID>
+    </Items>
+  </Menu>
+  <Menu>
+    <ID>12</ID>
+    <MenuName>Collection</MenuName>
+    <Items>
+      <URLName>/Design/Lab/OPDRefund.aspx</URLName>
+      <DispName>opd refund</DispName>
+      <MenuID>12</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Lab/ChangeSampleStatus.aspx</URLName>
+      <DispName>Change Sample Status</DispName>
+      <MenuID>12</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/EDP/DiscountAfterBill.aspx</URLName>
+      <DispName>DiscountAfterBill</DispName>
+      <MenuID>12</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Lab/Receipt_Cancellation.aspx</URLName>
+      <DispName>BillCancel</DispName>
+      <MenuID>12</MenuID>
+    </Items>
+  </Menu>
+  <Menu>
+    <ID>68</ID>
+    <MenuName>Dispatch</MenuName>
+    <Items>
+      <URLName>/Design/Lab/PatientLabSearch.aspx</URLName>
+      <DispName>Patient Lab Search</DispName>
+      <MenuID>68</MenuID>
+    </Items>
+  </Menu>
+  <Menu>
+    <ID>138</ID>
+    <MenuName>Franchise Master</MenuName>
+    <Items>
+      <URLName>/Design/Master/Centremaster.aspx</URLName>
+      <DispName>Centre Master</DispName>
+      <MenuID>138</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Master/PUPMaster.aspx</URLName>
+      <DispName>Panel Master</DispName>
+      <MenuID>138</MenuID>
+    </Items>
+  </Menu>
+  <Menu>
+    <ID>21</ID>
+    <MenuName>Laboratory</MenuName>
+    <Items>
+      <URLName>/Design/Investigation/breakPoint.aspx</URLName>
+      <DispName>Organism And Antibiotic BreakPoint</DispName>
+      <MenuID>21</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Investigation/ManagePackage.aspx</URLName>
+      <DispName>Package Master</DispName>
+      <MenuID>21</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Investigation/TestCentreMapping.aspx</URLName>
+      <DispName>Test Center Mapping</DispName>
+      <MenuID>21</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/investigation/InvestigationAutoApproveMaster.aspx</URLName>
+      <DispName>Auto Approved Signature Master</DispName>
+      <MenuID>21</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Investigation/DepartmentMaster.aspx</URLName>
+      <DispName>Department Master</DispName>
+      <MenuID>21</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Lab/FormulaMaster.aspx</URLName>
+      <DispName>Formula Master</DispName>
+      <MenuID>21</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Investigation/AddInterpretation.aspx</URLName>
+      <DispName>Interpretation</DispName>
+      <MenuID>21</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Investigation/InvTemplate.aspx</URLName>
+      <DispName>Investigation Template</DispName>
+      <MenuID>21</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Centre/Panel_ReportHeader.aspx</URLName>
+      <DispName>Edit Header</DispName>
+      <MenuID>21</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Master/MachineMaster.aspx</URLName>
+      <DispName>MachineMaster</DispName>
+      <MenuID>21</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Investigation/Manage_isNabl.aspx</URLName>
+      <DispName>Manage IsNabl</DispName>
+      <MenuID>21</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Investigation/LabObservationComments.aspx</URLName>
+      <DispName>Observation Comment Master</DispName>
+      <MenuID>21</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Investigation/MicroMaster.aspx</URLName>
+      <DispName>Organism And Antibiotic Master</DispName>
+      <MenuID>21</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Investigation/SampleContainerMaster.aspx</URLName>
+      <DispName>Sample Container Master</DispName>
+      <MenuID>21</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Investigation/requiredFieldMaster.aspx</URLName>
+      <DispName>Required Field Master</DispName>
+      <MenuID>21</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Investigation/InvComments.aspx</URLName>
+      <DispName>Add Comments</DispName>
+      <MenuID>21</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Investigation/TransferMachineRanges.aspx</URLName>
+      <DispName>Transfer Machine Ranges</DispName>
+      <MenuID>21</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/investigation/InvestigationAutoApproveCentre.aspx</URLName>
+      <DispName>Auto Validation Master</DispName>
+      <MenuID>21</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Lab/ManageApproval.aspx</URLName>
+      <DispName>DR. Approval Master</DispName>
+      <MenuID>21</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Investigation/labobservation_Help.aspx</URLName>
+      <DispName>Help Option Master</DispName>
+      <MenuID>21</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Investigation/InvestigationConcernForm.aspx</URLName>
+      <DispName>Investigation Concern Form</DispName>
+      <MenuID>21</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Investigation/InvestigationConcernForm.aspx</URLName>
+      <DispName>InvestigationConcernForm</DispName>
+      <MenuID>21</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Investigation/ManageDeliveryDays.aspx</URLName>
+      <DispName>Manage Delivery Days</DispName>
+      <MenuID>21</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Investigation/Manage_isNabl.aspx</URLName>
+      <DispName>Manage NABL Test</DispName>
+      <MenuID>21</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Investigation/LabObservationComments.aspx</URLName>
+      <DispName>Observation Comment</DispName>
+      <MenuID>21</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/OPD/OrganismMaster.aspx</URLName>
+      <DispName>Organism Master</DispName>
+      <MenuID>21</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Investigation/sampletypemaster.aspx</URLName>
+      <DispName>SampleType Master</DispName>
+      <MenuID>21</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Investigation/MapOrganismAntibiotics.aspx</URLName>
+      <DispName>Antibiotic Master</DispName>
+      <MenuID>21</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Investigation/ConcentFormMaster.aspx</URLName>
+      <DispName>Concent Form Master</DispName>
+      <MenuID>21</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Investigation/FamilyPackageMaster.aspx</URLName>
+      <DispName>Family Package Master</DispName>
+      <MenuID>21</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Investigation/HistotempleteMaster.aspx</URLName>
+      <DispName>Histo templete</DispName>
+      <MenuID>21</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Investigation/ManageInvestigation.aspx</URLName>
+      <DispName>Investigation Master</DispName>
+      <MenuID>21</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Master/Investigation_MachineMaster.aspx</URLName>
+      <DispName>InvestigationMachineMaster</DispName>
+      <MenuID>21</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Centre/ManageHoliday.aspx</URLName>
+      <DispName>Manage Holiday</DispName>
+      <MenuID>21</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Investigation/ManageOrdering.aspx</URLName>
+      <DispName>Manage Ordering</DispName>
+      <MenuID>21</MenuID>
+    </Items>
+  </Menu>
+  <Menu>
+    <ID>80</ID>
+    <MenuName>Mail</MenuName>
+    <Items>
+      <URLName>/Design/Lab/MailStatus.aspx</URLName>
+      <DispName>Mail Status</DispName>
+      <MenuID>80</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Lab/MailStatus.aspx</URLName>
+      <DispName>Manual Bulk Email</DispName>
+      <MenuID>80</MenuID>
+    </Items>
+  </Menu>
+  <Menu>
+    <ID>139</ID>
+    <MenuName>Marketing Master</MenuName>
+    <Items>
+      <URLName>/Design/master/discountmaster.aspx</URLName>
+      <DispName>Discount Master Category Wise</DispName>
+      <MenuID>139</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/EDP/Discountmaster.aspx</URLName>
+      <DispName>Discount Master Employee Wise</DispName>
+      <MenuID>139</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Master/CampEditMaster.aspx</URLName>
+      <DispName>Camp Master Edit</DispName>
+      <MenuID>139</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Master/CampMaster.aspx</URLName>
+      <DispName>CampMaster</DispName>
+      <MenuID>139</MenuID>
+    </Items>
+  </Menu>
+  <Menu>
+    <ID>77</ID>
+    <MenuName>Master</MenuName>
+    <Items>
+      <URLName>/Design/Employee/EmployeeRegistration.aspx</URLName>
+      <DispName>Employee master</DispName>
+      <MenuID>77</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Master/Fieldboy_Master.aspx</URLName>
+      <DispName>Field Boy Master</DispName>
+      <MenuID>77</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/FrontOffice/DoctorReferalCentreMapping.aspx</URLName>
+      <DispName>DoctorReferalCentreMapping.aspx</DispName>
+      <MenuID>77</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/FrontOffice/DoctorReferal.aspx</URLName>
+      <DispName>Doctor Master</DispName>
+      <MenuID>77</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/OPD/Bank.aspx</URLName>
+      <DispName>Bank Master</DispName>
+      <MenuID>77</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Master/ImportExportRateList.aspx</URLName>
+      <DispName>Import Rate List</DispName>
+      <MenuID>77</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Investigation/AliasMaster.aspx</URLName>
+      <DispName>Alias Master</DispName>
+      <MenuID>77</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/employee/EditEmployee.aspx</URLName>
+      <DispName>Edit Employee</DispName>
+      <MenuID>77</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/master/doctor_booking.aspx</URLName>
+      <DispName>Doctor Booking Merge</DispName>
+      <MenuID>77</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Centre/CentreAccess.aspx</URLName>
+      <DispName>Centre Access</DispName>
+      <MenuID>77</MenuID>
+    </Items>
+  </Menu>
+  <Menu>
+    <ID>78</ID>
+    <MenuName>Master List Report</MenuName>
+    <Items>
+      <URLName>/Design/OPD/Panel_ListReport.aspx</URLName>
+      <DispName>Panel List Report</DispName>
+      <MenuID>78</MenuID>
+    </Items>
+  </Menu>
+  <Menu>
+    <ID>114</ID>
+    <MenuName>Outsource</MenuName>
+    <Items>
+      <URLName>/Design/OPD/OutSourceLabRateListMaster.aspx</URLName>
+      <DispName>Outsource Test Master</DispName>
+      <MenuID>114</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/opd/OutsourceLabMaster.aspx</URLName>
+      <DispName>OutSource Lab Master</DispName>
+      <MenuID>114</MenuID>
+    </Items>
+  </Menu>
+  <Menu>
+    <ID>137</ID>
+    <MenuName>Ratelist Master</MenuName>
+    <Items>
+      <URLName>/Design/EDP/PanelWiseItemRate.aspx</URLName>
+      <DispName>Panel Wise RateList</DispName>
+      <MenuID>137</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/EDP/TransferRate.aspx</URLName>
+      <DispName>Transfer Rate</DispName>
+      <MenuID>137</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/master/RateTypeMaster.aspx</URLName>
+      <DispName>RateTypeMaster</DispName>
+      <MenuID>137</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/EDP/ItemWiseRateList.aspx</URLName>
+      <DispName>Item Wise Rate List</DispName>
+      <MenuID>137</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Master/ItemWiseRateList.aspx</URLName>
+      <DispName>Schedule Rate List</DispName>
+      <MenuID>137</MenuID>
+    </Items>
+  </Menu>
+  <Menu>
+    <ID>14</ID>
+    <MenuName>Re-print</MenuName>
+    <Items>
+      <URLName>/Design/Lab/OPDRePrint.aspx</URLName>
+      <DispName>Receipt/SRS Reprint</DispName>
+      <MenuID>14</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/lab/PrintSticker.aspx</URLName>
+      <DispName>Print Sticker</DispName>
+      <MenuID>14</MenuID>
+    </Items>
+  </Menu>
+  <Menu>
+    <ID>7</ID>
+    <MenuName>Reports</MenuName>
+    <image>data:image/jpg;base64,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</image>
+    <Items>
+      <URLName>/Design/EDP/MenuAccessReport.aspx</URLName>
+      <DispName>Role Wise Menu Access</DispName>
+      <MenuID>7</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Lab/Package_Inclusion_Report.aspx</URLName>
+      <DispName>Package_Inclusion_Report</DispName>
+      <MenuID>7</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/OPD/HomeVisitBoyReport.aspx</URLName>
+      <DispName>Collection Boy Report</DispName>
+      <MenuID>7</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/OPD/ServiceWiseCollectionReport.aspx</URLName>
+      <DispName>ServiceWise Collection Report</DispName>
+      <MenuID>7</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/EDP/EmployeeAccessReport.aspx</URLName>
+      <DispName>Employee Login Access</DispName>
+      <MenuID>7</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/OPD/CustomerRegistrationReport.aspx</URLName>
+      <DispName>Customer Registration Report</DispName>
+      <MenuID>7</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Lab/RateListReport.aspx</URLName>
+      <DispName>RateTypeMaster</DispName>
+      <MenuID>7</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/OPD/CollectionReportNew.aspx</URLName>
+      <DispName>Collection Report User Wise</DispName>
+      <MenuID>7</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/frontoffice/ReferDoctorReport.aspx</URLName>
+      <DispName>Add New Doctor Report</DispName>
+      <MenuID>7</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Lab/DoctorReferalData.aspx</URLName>
+      <DispName>Doctor Referal Data</DispName>
+      <MenuID>7</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Master/PatientInfoReport.aspx</URLName>
+      <DispName>Patient Info</DispName>
+      <MenuID>7</MenuID>
+    </Items>
+  </Menu>
+  <Menu>
+    <ID>136</ID>
+    <MenuName>Sales Master</MenuName>
+    <Items>
+      <URLName>/Design/Sales/SetTarget.aspx</URLName>
+      <DispName>Set Monthly Target</DispName>
+      <MenuID>136</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Sales/DesignationMaster.aspx</URLName>
+      <DispName>Designation Master</DispName>
+      <MenuID>136</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Sales/DesignationEmployeeMaster.aspx</URLName>
+      <DispName>Tagging of Employee with Designation</DispName>
+      <MenuID>136</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Master/LocaltionMaster.aspx</URLName>
+      <DispName>Sales Location Master</DispName>
+      <MenuID>136</MenuID>
+    </Items>
+  </Menu>
+  <Menu>
+    <ID>99</ID>
+    <MenuName>Tools</MenuName>
+    <image>data:image/jpg;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAA7tJREFUOE+1lG1IW1cYxwtjb2y60ta8azQ20SlhLM0IJSIrDke7yVa2T4Wt7ZeNycbaORRBqdKimCVkwdCgRCpSkUicUyordcPWlm61bpmKVk0TTXJvXkhylwTtqN72v3Nut6RlXfepF3489zn3Pj+e5xw4O3Y87UftiLy61xnWq5ys7snEdZr+xL5SG1fw2J6U/YxYbmOGpdZgRmry3SNsPxGzn3z38zIb6y+0Bj99RLr/Ip6RdNx2vzWxgdbpINqm13Dqyvr/0j69jvopFkp7EKJOX21W+uyRBY3G7t1cCaUBPgP8SSLhPmFrg8Pd/2B7M4WtTByOmwnsblnuz3VZ59F/6FrlU4koGIZBkBAIMQizLO6kk0inUkg9Fg7bdzj8uprEnsaF77PCl4/P6Cq7l7fqp6I4eonF8UkWxyYZIV5fjIC0QbrNgH8Imt+/uwHyEfP+Tew+OTeSFcpbPPsq+kLb2uE0tEMJ6IeTMLg5aIdTODgWQ9e1IEyETkLHtQA6rgZwhjIdwNRcCNeXYih4WCg7Na8nQr5qlEP1SBw1Y0nUjnN4+wJH3jnoXElUDsZRNhCD+lwEpX1hqHrDKOllUepkUeOOQNroyXUoa/Loy50BvnokiQOjcUH07g8p1F1MC5HmB0YTMLqi0A2GUTnAovwcgzKCxkmiK4PCzqWcUEyEZT3rgrCGFB6a4PD+pQwOT2aEeGgiJaxT4WtEViGIQlD3BqHuCaB8iEORaSV3KOKmWb3G4eer3AlSGBeEVPbBjxtCfCCMY/9QBNp+IiOivY4AVGfXCWtQDyQgP3NrLHso4hOz+tJuH29wxVDtjpIRk3iPjEu7o5Hm1e4YdOfJqE4qIyK7HyU2H4oJKmcUsrbFnFD02Q19sdXLawfCMAyyeJMU144ncJCIaKQ5Xa/oo7I1lHT7oPz2NoosXoFiBwtp60JOWPDJzBuF5pV7dF9oke48AyMZr8oVIfsWEfKsjHSktHqhMBNMq1B0raLQzkDcPD+eHXnXR1dfl7cv8nQElc0Ltd2Hsh4fynv8QlSffbCutJDirhXIO27RPYPsNKF9CQrrGkQNnu+ywucUx3aK6n9eVtCfW+egaJtHUTvh9IIAzem6rGUO0mYPJI1/8/VvkDT9DmnbEnYd+emrR26c/BrHO3uOXv5D0jALycmbkDbkoLnkxAzEXxK+uAHR5zkK6n/Bzjr3xAuyurx/3YvPSw9r843m5nyjxfKK0WL6B5Kb8g0mgbws5m/yDBbTSxUtHxPRi0/t4v8LQlY2De/YcwcAAAAASUVORK5CYII=</image>
+    <Items>
+      <URLName>/Design/Lab/ChangeSampleStatus.aspx</URLName>
+      <DispName>Change Sample Status</DispName>
+      <MenuID>99</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/master/panellabreportsetting.aspx</URLName>
+      <DispName>Lab Report Setting</DispName>
+      <MenuID>99</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Lab/RemoveLogisticTransaction.aspx</URLName>
+      <DispName>Remove Logistic Transaction</DispName>
+      <MenuID>99</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Lab/ChangeBarCode.aspx</URLName>
+      <DispName>ChangeBarCode</DispName>
+      <MenuID>99</MenuID>
+    </Items>
+  </Menu>
+</NewDataSet>

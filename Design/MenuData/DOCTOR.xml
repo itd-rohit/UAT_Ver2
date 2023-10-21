@@ -1,0 +1,111 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Menu>
+    <ID>132</ID>
+    <MenuName>Ticketing</MenuName>
+    <Items>
+      <URLName>/Design/CallCenter/NewTicket.aspx</URLName>
+      <DispName>New Ticket</DispName>
+      <MenuID>132</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/CallCenter/ViewTicket.aspx</URLName>
+      <DispName>View Ticket</DispName>
+      <MenuID>132</MenuID>
+    </Items>
+  </Menu>
+  <Menu>
+    <ID>124</ID>
+    <MenuName>Sample Processing</MenuName>
+    <Items>
+      <URLName>/Design/Lab/MachineResultEntry.aspx</URLName>
+      <DispName>Result Entry</DispName>
+      <MenuID>124</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Lab/microlabentry.aspx</URLName>
+      <DispName>Culture Microscopic and Plating</DispName>
+      <MenuID>124</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Lab/MachineResultEntry_culture.aspx</URLName>
+      <DispName>Result Entry Culture</DispName>
+      <MenuID>124</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/lab/histocytogrossing.aspx</URLName>
+      <DispName>HistoCyto Grossing and Sliding</DispName>
+      <MenuID>124</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/lab/machineResultEntry_histocyto.aspx</URLName>
+      <DispName>Result Entry HistoCyto</DispName>
+      <MenuID>124</MenuID>
+    </Items>
+  </Menu>
+  <Menu>
+    <ID>68</ID>
+    <MenuName>Dispatch</MenuName>
+    <Items>
+      <URLName>/Design/Lab/PatientLabSearch.aspx</URLName>
+      <DispName>Patient Lab Search</DispName>
+      <MenuID>68</MenuID>
+    </Items>
+  </Menu>
+  <Menu>
+    <ID>7</ID>
+    <MenuName>Reports</MenuName>
+    <Items>
+      <URLName>/Design/lab/MachineWiseSampleLoadReport.aspx</URLName>
+      <DispName>Machine Wise Sample Load Report</DispName>
+      <MenuID>7</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Lab/SampleRejectionReport.aspx</URLName>
+      <DispName>Sample Rejection Report</DispName>
+      <MenuID>7</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/OPD/BillWiseCollectionReport.aspx</URLName>
+      <DispName>BillWise Collection Report</DispName>
+      <MenuID>7</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Lab/SampleStatusReport.aspx</URLName>
+      <DispName>Sample Status Report</DispName>
+      <MenuID>7</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Lab/TATReport.asp</URLName>
+      <DispName>TAT Report</DispName>
+      <MenuID>7</MenuID>
+    </Items>
+  </Menu>
+  <Menu>
+    <ID>76</ID>
+    <MenuName>Result Approval</MenuName>
+    <Items>
+      <URLName>/Design/Lab/testApprovalScreen.aspx</URLName>
+      <DispName>Test Approval Screen</DispName>
+      <MenuID>76</MenuID>
+    </Items>
+  </Menu>
+  <Menu>
+    <ID>83</ID>
+    <MenuName>Change Password</MenuName>
+    <Items>
+      <URLName>/Design/Employee/ChangePassword.aspx</URLName>
+      <DispName>Change Password</DispName>
+      <MenuID>83</MenuID>
+    </Items>
+  </Menu>
+  <Menu>
+    <ID>12</ID>
+    <MenuName>Collection</MenuName>
+    <Items>
+      <URLName>/Design/Lab/OPDRefund.aspx</URLName>
+      <DispName>opd refund</DispName>
+      <MenuID>12</MenuID>
+    </Items>
+  </Menu>
+</NewDataSet>

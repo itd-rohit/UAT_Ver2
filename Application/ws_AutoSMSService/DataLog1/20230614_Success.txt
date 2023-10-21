@@ -1,0 +1,3 @@
+https://103.229.250.200/smpp/sendsms?username=idose&password=idose007&to=917317006737&from=ITDOSE&text=Dear MR.SHIVANGI DUMMY, your Lab booking NO IS ITS1941. Thanks FOR choosing ITDose Infosystems Pvt. Ltd.  14-06-2023 15:18:31
+https://103.229.250.200/smpp/sendsms?username=idose&password=idose007&to=917302331117&from=ITDOSE&text=Dear MR.JANUARY5, your Lab booking NO IS ITS1942. Thanks FOR choosing ITDose Infosystems Pvt. Ltd.  14-06-2023 16:50:34
+https://103.229.250.200/smpp/sendsms?username=idose&password=idose007&to=916263399302&from=ITDOSE&text=Dear MR.RAM KRISHNA, your Lab booking NO IS ITS1943. Thanks FOR choosing ITDose Infosystems Pvt. Ltd.  14-06-2023 16:52:12

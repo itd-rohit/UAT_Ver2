@@ -1,0 +1,4 @@
+29-11-2022 12:48:11  System.Net.Sockets.SocketException (0x80004005): No such host is known
+   at System.Net.Dns.InternalGetHostByName(String hostName, Boolean includeIPv6)
+   at System.Net.Dns.GetHostAddresses(String hostNameOrAddress)
+   at System.Net.NetworkInformation.Ping.Send(String hostNameOrAddress, Int32 timeout, Byte[] buffer, PingOptions options)

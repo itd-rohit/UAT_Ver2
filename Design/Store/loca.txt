@@ -1,0 +1,1 @@
+ SELECT lm.LocationID,Location FROM st_locationmaster lm   WHERE lm.IsActive=1 and lm.panel_id='1'  ORDER BY lm.Location

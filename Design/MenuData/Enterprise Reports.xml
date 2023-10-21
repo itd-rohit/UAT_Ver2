@@ -1,0 +1,113 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Menu>
+    <ID>165</ID>
+    <MenuName>Accounts Report</MenuName>
+    <image>data:image/jpg;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAASCAYAAABfJS4tAAAABGdBTUEAALGPC/xhBQAABGlJREFUOE+NVG1Mm1UUvi3jI6AOM7KhiP8MBtwmYSgOREaFjYQREFQQCAwiji+ZlekgsI6vOGUa0USFKMSNjVJGJvgRNhYV1wEOWtqCfLSFAm1pKeVlpS0tBXo8L7KNMZze9Ml93nPO+7z3Puf2MgiO8G5ZhauT8yHXHcwVFyaTuDAJcWIwiSODQXY4EII/wkBOAMga8lVA2IHY7IRY7XayjNy6ZmeYGQzKaGcU9xzwGiXhvYqKaLEW3pRoIE2khHckaij4awY+GNFAyagWzkhnoQJRJdNBpWwWypGfHtNCEebZWJczqIYMsQqSRCqIlxqA9cfokG8Ox5NE9U31Jo0tQMRntdcC4hJqg95IbngpMbkhJDG1ITQpuSEsKXUdhzZA81AEnQ/GuiBE4OuJ9S+kZzXG3xgxRvPHwCfq6PskXqjsypQbIDgzu9GVkEjcqTfi6U3wQu65JbY5T3NvLyfyTGrfxEhCt9TuEx7xEUkaUHXlTixCWO57Le6E7KU93zwAgGm32x/bGt/uOXtUP5DcK4NnWYcrSbpI3cWeNAErj92ykxD/rS90Uub8Ds1Cx559e9weJs75TeFyYkwnPnZLDr608NuD6q5TSjNEbiN8VWPczV8wT0tsAFV19ZX/JXxSOifO6huH5yJQOHtI01WqWoLD2wj3UMZPRlcBJlYA+DKFPpTFWt8Rj8dz6AfAltwbHIXCpVimF+cINoTzhjVdZ9RLEPVu4X1W3Jhf9hMuWo1yyyqoLCtgRLOb2n+8REuJzSsxfP1iE1KnO9K0cKlcL84XTPyz4nwULpt5UJg/b2wdw9UqlpZh3rYKSEE1Ty0XcTiJQ0ZrjwjtKfm6tuiuMHp8GoULhA8R7pw1HeHfttglRisK2+4Jz+mpxrafuqXWNRBY7HBxYES7PzjYjxanm3ef8GYrsO37OgF2ts0uSgdwhSNrAGqcDQgTovXq9W7hzNzyFHIh+t6Nc/mVn2l7mLwhcCpFj+9acXxT8xwJ8WuhbC9f1ty+eaF/UNF8a0DdLpCorkuG1c3Xfh0q/7ymo0epHWwVSKbO94pUdX+K1WVXfpHtDQl6Fb/hsN68/o3m3TluEXlsHp7j5zc8c3NjkhRXR5Lp7EgynJkkw5FJMne5P5qCeT/kaXTMFeGx85Gsp57YnfxKWoH7h+OUgD5u6+c4TaS+yZ4yQdjxvGZ8yef//MP+rebEqE50jBaOOFJFEoXKjtxpM2T9LtKxe4c7zyoo3hdKQ/O3MybuxVkzt2XOwv1Bb+G2UTgjLs+Zmy9hvEFr4n6lXuR+Om3glk0amgrHdO258oXlpB6ZzScktJzECWcCU/onpdl4XRYOzwAHr8Szch3UTMzBN5Pz8N00Bd8rKbigouA8ogF53dQ8fKnQQ/W4bv0aPYVXaP6QGtIHlBZWTT3/yV2Pn1zf1QF2hbd/wlsl/tGx5wJiYqtfjHmtOghxEBES+yAOYozO03WBWB9wNLZ6f3TcOV9W5MdeHh7FXp4eUX8DLU7l7o6y8nQAAAAASUVORK5CYII=</image>
+    <Items>
+      <URLName>/Design/Invoicing/InvoiceReport.aspx</URLName>
+      <DispName>Ledger Transaction</DispName>
+      <MenuID>165</MenuID>
+    </Items>
+  </Menu>
+  <Menu>
+    <ID>166</ID>
+    <MenuName>Administrator report</MenuName>
+    <image>data:image/jpg;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAASCAYAAABfJS4tAAAABGdBTUEAALGPC/xhBQAABGlJREFUOE+NVG1Mm1UUvi3jI6AOM7KhiP8MBtwmYSgOREaFjYQREFQQCAwiji+ZlekgsI6vOGUa0USFKMSNjVJGJvgRNhYV1wEOWtqCfLSFAm1pKeVlpS0tBXo8L7KNMZze9Ml93nPO+7z3Puf2MgiO8G5ZhauT8yHXHcwVFyaTuDAJcWIwiSODQXY4EII/wkBOAMga8lVA2IHY7IRY7XayjNy6ZmeYGQzKaGcU9xzwGiXhvYqKaLEW3pRoIE2khHckaij4awY+GNFAyagWzkhnoQJRJdNBpWwWypGfHtNCEebZWJczqIYMsQqSRCqIlxqA9cfokG8Ox5NE9U31Jo0tQMRntdcC4hJqg95IbngpMbkhJDG1ITQpuSEsKXUdhzZA81AEnQ/GuiBE4OuJ9S+kZzXG3xgxRvPHwCfq6PskXqjsypQbIDgzu9GVkEjcqTfi6U3wQu65JbY5T3NvLyfyTGrfxEhCt9TuEx7xEUkaUHXlTixCWO57Le6E7KU93zwAgGm32x/bGt/uOXtUP5DcK4NnWYcrSbpI3cWeNAErj92ykxD/rS90Uub8Ds1Cx559e9weJs75TeFyYkwnPnZLDr608NuD6q5TSjNEbiN8VWPczV8wT0tsAFV19ZX/JXxSOifO6huH5yJQOHtI01WqWoLD2wj3UMZPRlcBJlYA+DKFPpTFWt8Rj8dz6AfAltwbHIXCpVimF+cINoTzhjVdZ9RLEPVu4X1W3Jhf9hMuWo1yyyqoLCtgRLOb2n+8REuJzSsxfP1iE1KnO9K0cKlcL84XTPyz4nwULpt5UJg/b2wdw9UqlpZh3rYKSEE1Ty0XcTiJQ0ZrjwjtKfm6tuiuMHp8GoULhA8R7pw1HeHfttglRisK2+4Jz+mpxrafuqXWNRBY7HBxYES7PzjYjxanm3ef8GYrsO37OgF2ts0uSgdwhSNrAGqcDQgTovXq9W7hzNzyFHIh+t6Nc/mVn2l7mLwhcCpFj+9acXxT8xwJ8WuhbC9f1ty+eaF/UNF8a0DdLpCorkuG1c3Xfh0q/7ymo0epHWwVSKbO94pUdX+K1WVXfpHtDQl6Fb/hsN68/o3m3TluEXlsHp7j5zc8c3NjkhRXR5Lp7EgynJkkw5FJMne5P5qCeT/kaXTMFeGx85Gsp57YnfxKWoH7h+OUgD5u6+c4TaS+yZ4yQdjxvGZ8yef//MP+rebEqE50jBaOOFJFEoXKjtxpM2T9LtKxe4c7zyoo3hdKQ/O3MybuxVkzt2XOwv1Bb+G2UTgjLs+Zmy9hvEFr4n6lXuR+Om3glk0amgrHdO258oXlpB6ZzScktJzECWcCU/onpdl4XRYOzwAHr8Szch3UTMzBN5Pz8N00Bd8rKbigouA8ogF53dQ8fKnQQ/W4bv0aPYVXaP6QGtIHlBZWTT3/yV2Pn1zf1QF2hbd/wlsl/tGx5wJiYqtfjHmtOghxEBES+yAOYozO03WBWB9wNLZ6f3TcOV9W5MdeHh7FXp4eUX8DLU7l7o6y8nQAAAAASUVORK5CYII=</image>
+    <Items>
+      <URLName>/Design/Lab/RateListReport.aspx</URLName>
+      <DispName>RateListReport</DispName>
+      <MenuID>166</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/OPD/DispatchReport.aspx</URLName>
+      <DispName>Dispatch Report</DispName>
+      <MenuID>166</MenuID>
+    </Items>
+  </Menu>
+  <Menu>
+    <ID>167</ID>
+    <MenuName>Laboratory reports</MenuName>
+    <image>data:image/jpg;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAASCAYAAABfJS4tAAAABGdBTUEAALGPC/xhBQAABGlJREFUOE+NVG1Mm1UUvi3jI6AOM7KhiP8MBtwmYSgOREaFjYQREFQQCAwiji+ZlekgsI6vOGUa0USFKMSNjVJGJvgRNhYV1wEOWtqCfLSFAm1pKeVlpS0tBXo8L7KNMZze9Ml93nPO+7z3Puf2MgiO8G5ZhauT8yHXHcwVFyaTuDAJcWIwiSODQXY4EII/wkBOAMga8lVA2IHY7IRY7XayjNy6ZmeYGQzKaGcU9xzwGiXhvYqKaLEW3pRoIE2khHckaij4awY+GNFAyagWzkhnoQJRJdNBpWwWypGfHtNCEebZWJczqIYMsQqSRCqIlxqA9cfokG8Ox5NE9U31Jo0tQMRntdcC4hJqg95IbngpMbkhJDG1ITQpuSEsKXUdhzZA81AEnQ/GuiBE4OuJ9S+kZzXG3xgxRvPHwCfq6PskXqjsypQbIDgzu9GVkEjcqTfi6U3wQu65JbY5T3NvLyfyTGrfxEhCt9TuEx7xEUkaUHXlTixCWO57Le6E7KU93zwAgGm32x/bGt/uOXtUP5DcK4NnWYcrSbpI3cWeNAErj92ykxD/rS90Uub8Ds1Cx559e9weJs75TeFyYkwnPnZLDr608NuD6q5TSjNEbiN8VWPczV8wT0tsAFV19ZX/JXxSOifO6huH5yJQOHtI01WqWoLD2wj3UMZPRlcBJlYA+DKFPpTFWt8Rj8dz6AfAltwbHIXCpVimF+cINoTzhjVdZ9RLEPVu4X1W3Jhf9hMuWo1yyyqoLCtgRLOb2n+8REuJzSsxfP1iE1KnO9K0cKlcL84XTPyz4nwULpt5UJg/b2wdw9UqlpZh3rYKSEE1Ty0XcTiJQ0ZrjwjtKfm6tuiuMHp8GoULhA8R7pw1HeHfttglRisK2+4Jz+mpxrafuqXWNRBY7HBxYES7PzjYjxanm3ef8GYrsO37OgF2ts0uSgdwhSNrAGqcDQgTovXq9W7hzNzyFHIh+t6Nc/mVn2l7mLwhcCpFj+9acXxT8xwJ8WuhbC9f1ty+eaF/UNF8a0DdLpCorkuG1c3Xfh0q/7ymo0epHWwVSKbO94pUdX+K1WVXfpHtDQl6Fb/hsN68/o3m3TluEXlsHp7j5zc8c3NjkhRXR5Lp7EgynJkkw5FJMne5P5qCeT/kaXTMFeGx85Gsp57YnfxKWoH7h+OUgD5u6+c4TaS+yZ4yQdjxvGZ8yef//MP+rebEqE50jBaOOFJFEoXKjtxpM2T9LtKxe4c7zyoo3hdKQ/O3MybuxVkzt2XOwv1Bb+G2UTgjLs+Zmy9hvEFr4n6lXuR+Om3glk0amgrHdO258oXlpB6ZzScktJzECWcCU/onpdl4XRYOzwAHr8Szch3UTMzBN5Pz8N00Bd8rKbigouA8ogF53dQ8fKnQQ/W4bv0aPYVXaP6QGtIHlBZWTT3/yV2Pn1zf1QF2hbd/wlsl/tGx5wJiYqtfjHmtOghxEBES+yAOYozO03WBWB9wNLZ6f3TcOV9W5MdeHh7FXp4eUX8DLU7l7o6y8nQAAAAASUVORK5CYII=</image>
+    <Items>
+      <URLName>/Design/Reports/LabReport/ReRunTestReport.aspx</URLName>
+      <DispName>ReRunTestReport</DispName>
+      <MenuID>167</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Lab/InfectionControlReport.aspx</URLName>
+      <DispName>Infection Control Report</DispName>
+      <MenuID>167</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Reports/LabReport/InfectionControlReportNew.aspx</URLName>
+      <DispName>InfectionControlReportNew</DispName>
+      <MenuID>167</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Reports/LabReport/HighVolumeReport.aspx</URLName>
+      <DispName>HighVolumeReport</DispName>
+      <MenuID>167</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Reports/LabReport/QualityIndicatorDelayTAT.aspx</URLName>
+      <DispName>QualityIndicatorDelayTAT</DispName>
+      <MenuID>167</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Reports/LabReport/LabAbnormalReport.aspx</URLName>
+      <DispName>LabAbnormalReport</DispName>
+      <MenuID>167</MenuID>
+    </Items>
+  </Menu>
+  <Menu>
+    <ID>7</ID>
+    <MenuName>Reports</MenuName>
+    <image>data:image/jpg;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAIAAABL1vtsAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAv9JREFUOE+llG9Ik0EYwK8EQQOxQKoZFkEIQRkVSR8ixIl+cJSkH6S+CCopaFhiYYoTE0HHFCc40WEUsxLtD/nBLXFTnDIVdaIba6KTEB0qxt7jNt4d7/Xsn7ncROjlx3Hvce/vnnueu/cEYwz95wMKw8+dvA5jniIiue3Gyg+LTuKByYcfBEOFqll07x3K7EMZkZF8Mtp2IyqKVHMoXd0yZNVb93QrRGcL4u1jvXknVapHOf1TRyiKe+dQmnrCAotQhtcYtgdZY+5NWPmRYgo97D8qCq8ivU+zuCv0ZjoLkLMoBLY0KFHMHUORBood9r0C1yRgaWKAOhGuT2Krekn77HEUas3CVthswWBGuwk9GJpcpxHT6c+FxuSAGQJ2CNw+2wK3Jdiny2rll7Kr5kcGqUXjxW5klN/XeYvqU3g3IqhzuVLElUeFUIp+v07YkyZx9Um44SKuOQtzhA1TeAUbKOBexHBVcQFexnNlUdyreGafYhYtNWvpMoQwjavPkPZUl/qJZ37Ae7iDUQRzQSmjngACpZYR3JDEaxpw7XksvQAtr22AWIhSDK+k5Vo4hUDZPtCzjsJngnNTcG74YXgb9uL++hy8RH7joMJX1MFCrjIWIg9ymnsWjetEvE4GCxL5TWh5nRxK7lJlg4W03jqkUOdwJYgrOxkA8voU4dpz1KbnDUp+sos3dNGVcZBCFvhRGZGlhG7EX9RgwL7OpmfhM5aKqE3HG7p5Qw+0dHUCpLgp2T1QQtruhMtF6OmhKwZIHj+mgG2TtttEnsKPd0CCPeZhXt9KZNdDFBOWnTCHb31MqD7FfhnY7qrgsApbZsFu5CqiYX33l3KQBhT+y978zapbdowsHmDZMfpjZL4gdqk4zlESReD6NCXjxsu4LpGf7OG1b/5WpKjX98sR94EolD4kVqOsTiRWfMyOofUi19scl0riep/vHq7HTVdI89VAFPAjeKycye+cyYf2X2ZzlSaJ0qztbfT0ZJDuLB+ZpPM+UdyF7AYUkS7oMcf/AMkdAOj6D6DkAAAAAElFTkSuQmCC</image>
+    <Items>
+      <URLName>/Design/OPD/CancelReport.aspx</URLName>
+      <DispName>Cancel Report</DispName>
+      <MenuID>7</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Reports/CollectionReport/collectionReportnew.aspx</URLName>
+      <DispName>Collection Report User Wise</DispName>
+      <MenuID>7</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Lab/DayWiseDiscountReport.aspx</URLName>
+      <DispName>Discount Report</DispName>
+      <MenuID>7</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Reports/BusinessReport/BusinessReport.aspx</URLName>
+      <DispName>Combine Business Report</DispName>
+      <MenuID>7</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Reports/CollectionReport/collectionReport.aspx</URLName>
+      <DispName>Combine Collection Report</DispName>
+      <MenuID>7</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Lab/OutSourceSampleReport.aspx</URLName>
+      <DispName>Outsource Sample Report</DispName>
+      <MenuID>7</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Reports/Collectionreport/OutStandingReport.aspx</URLName>
+      <DispName>OutStandingReport_New</DispName>
+      <MenuID>7</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Reports/LabReport/PendingList.aspx</URLName>
+      <DispName>PendingList_New</DispName>
+      <MenuID>7</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Reports/LabReport/TATReportGraph.aspx</URLName>
+      <DispName>TATReportGraph_new</DispName>
+      <MenuID>7</MenuID>
+    </Items>
+  </Menu>
+</NewDataSet>

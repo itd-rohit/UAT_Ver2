@@ -1,0 +1,367 @@
+﻿ /*---------------------------Start Login-------------------------------------------*/
+ 
+.LoginForm .loginbox {
+    background: white;
+    color: black;
+    margin-top: 10%;
+    left: 0;
+    padding: 20px;
+    box-shadow: 0 8px 50px -2px #000;
+    border-radius: 5px;
+}
+
+.LoginForm .logo {
+    width: 130px;
+    height: 55px;
+    margin-left: 10%;
+}
+
+@media (max-width:767px) {
+    .LoginForm .loginbox {
+        margin-top: 25%;
+        box-shadow: none;
+        border: 1px solid #e2e2e2;
+    }
+}
+
+.LoginForm .loginbox_content {
+    padding: 5% 11% 5% 11%;
+}
+
+.LoginForm .singtext {
+    font-family: "Open Sans",sans-serif;
+    font-size: 20px;
+    color: #82C226;
+    float: right;
+    padding-right: 25%;
+}
+
+.LoginForm .login-btn {
+    float: right;
+    margin-right: 28%;
+}
+
+.LoginForm .forgotpassword {
+    padding-left: 10%;
+}
+
+@media (max-width:800px) {
+    .LoginForm .login-btn {
+        margin-right: 23%;
+    }
+}
+
+/*---------------------------End Login
+
+/*---------------------------Start Entry Page-------------------------------------------*/
+.MachineEntry .pageheader .heading {
+    padding:0px;
+}
+.Userdetl {
+    font-size:9px;
+}
+
+.MachineEntry .Result-Entry .btn{
+    width: 24% !important;
+    font-size: 12px !important;
+    padding-left: 7px !important;
+    border-radius: 15px!important;
+}
+.MachineEntry .Result-Entry div {
+    padding:0;
+}
+.MachineEntry .tableScreen table tbody td {
+    font-size: 13px;
+}
+
+.MachineEntry .table-div {
+    padding:0px;
+}
+
+
+.MachineEntry .entrytable .TestName {
+    margin-top: 5px;
+}
+.MachineEntry .entrytable > thead{
+     background-image: linear-gradient(to bottom, #f5f5f5, #f3eef3)!important;
+}
+ .MachineEntry .table>thead>tr>th {
+    vertical-align: bottom;
+    border-bottom: 0 solid #ddd!important;
+}
+ .MachineEntry .entrytable .TestName-box {
+     background-image: linear-gradient(to bottom, #f3eff3, #e3eaf1)!important;
+    padding: 0;
+}
+ .MachineEntry .entrytable .TestName-box h3 {
+     padding: 0;
+    margin-bottom: 5px;
+    margin-top: 7px;
+    padding-left: 15px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.MachineEntry .entrytable .TestName-title {
+}
+.MachineEntry .entrytable .Value {
+    margin-top: 5px;
+    padding:0px;
+    word-wrap: break-word;
+}
+.MachineEntry .entrytable .Average {
+    margin-top: 5px;
+    word-wrap: break-word;
+}
+.MachineEntry .entrytable .Comments-row {
+    /*margin-top: 18px;
+    border-top: 1px solid #ea7b1b;*/
+    word-wrap: break-word;
+    padding-top: 5px;
+}
+.MachineEntry .entrytable .row-coment {
+    margin-top:5px;
+       word-wrap: break-word;
+    white-space: pre-wrap;
+}
+
+.MachineEntry .entrytable .Comments {
+    margin-top: 5px;
+}
+.MachineEntry .entrytable .CommentsInput {
+    margin-top: 5px;
+}
+
+.MachineEntry .entrytable .MethodName {
+    margin-top: 5px;
+    font-size: 12px;
+    word-wrap: break-word;
+}
+.MachineEntry .entrytable .MachRead {
+    margin-top: 5px;
+    font-size: 12px;
+    word-wrap: break-word;
+}
+.MachineEntry .entrytable .Delta {
+    margin-top: 5px;
+    font-size: 12px;
+}
+.MachineEntry .entrytable .row-box{
+            border-bottom: 1px solid #ea7b1b;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    background-color: #f2f2f2;
+    margin-top: 1px;
+       background-image: linear-gradient(to bottom, #f2f2f2, #f2f2f2);
+}
+
+.MachineEntry .panel {  
+     border: 0px solid transparent; 
+     -webkit-box-shadow:none; 
+     box-shadow:none; 
+         margin-bottom: 5px;
+}
+.MachineEntry .panel-title {
+       font-size: 12px;
+    font-weight: bold;
+    padding: 0;
+}
+.MachineEntry .panel-success>.panel-heading{
+         background-image: linear-gradient(to bottom, #efe4ef, #f7ebf7)!important;
+              background-color: #eac8e5;
+    border-color: #ffa8a2!important;
+        color: #6d6666!important;
+            height: 36px;
+}
+.MachineEntry .delta-data {
+    padding: 0;
+    margin-top: 5px;
+}
+.MachineEntry .datalatable {
+    margin-bottom:0px;
+}
+.MachineEntry .datalatable td {
+   padding: 0;
+      background: rgb(245, 244, 245);
+    background-image: linear-gradient(to bottom, #f9f9f9, #fae2fa);
+}
+    .MachineEntry .datalatable thead {
+           background: rgb(245, 244, 245);
+    background-image: linear-gradient(to bottom, #e6dde6, #f1eaea)
+    }
+ .MachineEntry .delta-row {
+        border-bottom: 1px solid #b7b3b3;
+    line-height: 28px;
+}
+.MachineEntry .delta-data .delta-norecord {
+    text-align: center;
+    padding: 15px;
+    border-bottom: 1px solid #ecd0e8;
+}
+.MachineEntry .next a {
+       width: 84px!important;
+         background: #9ebcd4;
+    background-image: linear-gradient(to bottom, #9ebcd4, #9ebcd4);
+    color: #f2f2f2;
+}
+.MachineEntry .Print a {       
+         background: #9ebcd4;
+    background-image: linear-gradient(to bottom, #9ebcd4, #9ebcd4);
+    color: #f2f2f2;
+}
+
+.MachineEntry .previous a {
+    width: 84px!important;
+  background: #9ebcd4;
+    background-image: linear-gradient(to bottom, #9ebcd4, #9ebcd4);
+      color: #f2f2f2;
+}
+
+.MachineEntry .forword .select-box {
+   margin-top:10px;
+}
+.MachineEntry .modal-content {
+     background: #f2f2f2;
+    background-image: linear-gradient(to bottom, #f2f2f2, #f2f2f2);
+}
+.MachineEntry .ReRun {
+    margin-top: 6px;
+    height: 24px;
+    padding: 0;
+    width: 62px;
+    float: right;
+    margin-right: 15px;
+}
+
+#ReRunModel .table tbody {
+    background-image: linear-gradient(to bottom, #fdfbfb, #f7f4f4)!important;
+}
+#ReRunModel .table thead {
+    background-image: linear-gradient(to bottom, #f5f5f5, #f3eef3)!important;
+}
+@media screen and (max-width: 768px) {
+
+    .MachineEntry .ReRun {
+    margin-top: 3px;
+    height: 24px;
+    padding: 0;
+    width: 62px;
+    float: right;
+    margin-right: 15px;
+    margin-bottom: 4px;
+}
+    .MachineEntry .entrytable thead th {
+        font-size: 14px!important;
+    }
+
+
+    .MachineEntry .pager {
+        padding-left: 0;
+        margin: 20px 0;
+        text-align: center;
+        list-style: none;
+        margin-bottom: 0px;
+        margin-top: 0;
+    }
+
+ 
+.MachineEntry .entrytable .row-coment {
+        width:350px;
+        word-wrap: break-word;
+        white-space: pre-wrap; 
+        white-space: -o-pre-wrap; 
+        white-space: -moz-pre-wrap; 
+        white-space: -pre-wrap; 
+    }
+
+.MachineEntry .Result-Entry .btn {
+    width: 24% !important;
+    font-size: 12px !important;
+    padding-left: 7px !important;
+}
+
+}
+    /*---------------------------End Entry Page-------------------------------------------*/
+
+
+
+    /*---------------------------Start Search Entry Page-------------------------------------------*/
+    .MachineSearchResult .button-box {
+        text-align: center;
+    }
+
+    /*---------------------------End Search Entry Page-------------------------------------------*/
+
+    /*---------------------------Start Testapproval Page-------------------------------------------*/
+    .Testapproval .button-box {
+        text-align: center;
+    }
+
+    .Testapproval .panel-success > .panel-heading {
+        background-image: linear-gradient(to bottom, #efe4ef, #f7ebf7)!important;
+        background-color: #eac8e5;
+    }
+
+    .Testapproval .table thead {
+        background-image: linear-gradient(to bottom, #f5f5f5, #f3eef3)!important;
+    }
+
+    .Testapproval .table tbody {
+        background-image: linear-gradient(to bottom, #fdfbfb, #f7f4f4)!important;
+    }
+    .Testapproval .pageheader .heading{
+        padding:0px;
+}
+
+    .flipkart-navbar-input {
+    padding: 11px 16px;
+    border-radius: 2px 0 0 2px;
+    border: 0 none;
+    outline: 0 none;
+    font-size: 15px;
+     height: 25px;
+}
+
+.flipkart-navbar-button {
+   background-color: #9ebcd4;
+    border: 1px solid #9ebcd4;
+    border-radius: 0 2px 2px 0;
+    color: #565656;
+    padding: 4px 0;
+    height: 25px;
+    cursor: pointer;
+}
+
+.cart-button {
+    background-color: #2469d9;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .23), inset 1px 1px 0 0 hsla(0, 0%, 100%, .2);
+    padding: 10px 0;
+    text-align: center;
+    height: 41px;
+    border-radius: 2px;
+    font-weight: 500;
+    width: 120px;
+    display: inline-block;
+    color: #FFFFFF;
+    text-decoration: none;
+    color: inherit;
+    border: none;
+    outline: none;
+}
+
+.cart-button:hover{
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.cart-svg {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+    /*---------------------------End Testapproval Page-------------------------------------------*/
+
+

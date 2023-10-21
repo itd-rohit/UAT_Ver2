@@ -1,0 +1,5 @@
+Zone,State,City,LocalityID,LocalityName,PinCode,DropLocationName,DropLocationCode,Route,PhelebotomistName,PhelebotomistUserName
+NORTH,DELHI,Delhi,2,Hari Nagar,,MEDIBIRD DIAGNOSTICS,MBD,WD2,ADITYA SHARMA,aadi07
+NORTH,DELHI,Delhi,3,Janak Puri,,,,,,
+NORTH,DELHI,Delhi,1,Jhandewalan Extension,110055,,,,,
+NORTH,DELHI,Delhi,4,Vikas Puri,110018,,,,,

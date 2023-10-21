@@ -1,0 +1,43 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Menu>
+    <ID>21</ID>
+    <MenuName>Laboratory</MenuName>
+    <image>data:image/jpg;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAA2hJREFUOE+NlFtIFFEYx3dXwS4PKRRF0PYWORcvLELuzO5o7sysuerM7G5eKnrIiogM1HVmE1mW6iHyrSjE6iFSK4vAzNu6My5WYmBBktBLkPlQCj31EJhN3xmdbb3iwtlz5lx+5/9933/GarFYbJFIBDqLZXp62trT07OIxnhosNiSltFmW/xbO3Wz5HMwGEzDMEw3Ni7/otGoxTyLpuDZiiZsDMOkowZcW+7lF5m4HG8nW98tkIrakhfu38NEIukIaO7bqEd7EDgJhLEVk3vtWFg7S4Q1gVDirUTLm/EcJVaFNm4JmKoQHUAHC5r69mFK/BkmqxeJkMrgsvYKKd0KdEXIy0Croz5mJ+TRASwUr0AQUBrGFPUqGm8WuhHyaoVQHptRlHDiAa6o7wlFrfde6s8gwqMv85uHszdTuQaI4EsHSrw59U8eAfQD1jxiKCNCsRMQ+qSjvte+EXQNEG2kePE8UxrUKbaqNDsyeRKTtXukEq+AFDzEFG2GlGOVWwKiTXSpcIji/QtOTrpteg1XtAlcVqcwecye1xgrgOePpDLkQI5YXfWkbcyBkxXv07x/nmEqMw0g+BJvGuIA2EWERgQ8rN4iZO05GRpwrafS4Jgwuqw2C4Bz0NrNapprAEQFGocCdRBXEp9A5STRMHh4PZVJIMWJuaBOd3rEutTbUaHwhsQBUHaNbJ34A4X6TTaPBEilL2s9Cxm2QQB3SYCkvQGd8ga6nJ6K/alQw0ayVoeHtQskeNNx7umu1ChMcLLKRkG8AuNkpe9QlASEPQE9boZketMs1Hq9CUVrhkKKFe9QnHTdGHPSXZoV25YPWo+WV++lPEI3XDQGqRmC9go1EDBMsdJbmO9kfL7dSEAyZMpT2QhQtZCV3LAhZuYS3cyy7E6wUjHkuAbWZgDWBH6NOjnxJ81LpyCaIofPt8NIH/pD7UggsJ3yiDdgcb64vBaMLXUwzOltqeFRHp+d4qVZtzfwxcX7X7v4pQKa+TS+BamxG+F6BRqU/Cry1egU508UcpJAc4IDLjgDKr+ieZrzf6O5IDL3io/Fmlfvv8EFzsUH5piyat3lDeoAWnCXHtfdx6p0uOxHYUlFvpnf1LdlBXDZPlbIYxTs8xjlyrAR50cQ6CV96VmchbC7nbzYWVgsHUw1NwL+AxxfoqeAjLQFAAAAAElFTkSuQmCC</image>
+    <Items>
+      <URLName>/Design/DocAccount/DocAutoCorrectMaster.aspx</URLName>
+      <DispName>DocAutoCorrectMaster</DispName>
+      <MenuID>21</MenuID>
+    </Items>
+  </Menu>
+  <Menu>
+    <ID>7</ID>
+    <MenuName>Reports</MenuName>
+    <image>data:image/jpg;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAIAAABL1vtsAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAv9JREFUOE+llG9Ik0EYwK8EQQOxQKoZFkEIQRkVSR8ixIl+cJSkH6S+CCopaFhiYYoTE0HHFCc40WEUsxLtD/nBLXFTnDIVdaIba6KTEB0qxt7jNt4d7/Xsn7ncROjlx3Hvce/vnnueu/cEYwz95wMKw8+dvA5jniIiue3Gyg+LTuKByYcfBEOFqll07x3K7EMZkZF8Mtp2IyqKVHMoXd0yZNVb93QrRGcL4u1jvXknVapHOf1TRyiKe+dQmnrCAotQhtcYtgdZY+5NWPmRYgo97D8qCq8ivU+zuCv0ZjoLkLMoBLY0KFHMHUORBood9r0C1yRgaWKAOhGuT2Krekn77HEUas3CVthswWBGuwk9GJpcpxHT6c+FxuSAGQJ2CNw+2wK3Jdiny2rll7Kr5kcGqUXjxW5klN/XeYvqU3g3IqhzuVLElUeFUIp+v07YkyZx9Um44SKuOQtzhA1TeAUbKOBexHBVcQFexnNlUdyreGafYhYtNWvpMoQwjavPkPZUl/qJZ37Ae7iDUQRzQSmjngACpZYR3JDEaxpw7XksvQAtr22AWIhSDK+k5Vo4hUDZPtCzjsJngnNTcG74YXgb9uL++hy8RH7joMJX1MFCrjIWIg9ymnsWjetEvE4GCxL5TWh5nRxK7lJlg4W03jqkUOdwJYgrOxkA8voU4dpz1KbnDUp+sos3dNGVcZBCFvhRGZGlhG7EX9RgwL7OpmfhM5aKqE3HG7p5Qw+0dHUCpLgp2T1QQtruhMtF6OmhKwZIHj+mgG2TtttEnsKPd0CCPeZhXt9KZNdDFBOWnTCHb31MqD7FfhnY7qrgsApbZsFu5CqiYX33l3KQBhT+y978zapbdowsHmDZMfpjZL4gdqk4zlESReD6NCXjxsu4LpGf7OG1b/5WpKjX98sR94EolD4kVqOsTiRWfMyOofUi19scl0riep/vHq7HTVdI89VAFPAjeKycye+cyYf2X2ZzlSaJ0qztbfT0ZJDuLB+ZpPM+UdyF7AYUkS7oMcf/AMkdAOj6D6DkAAAAAElFTkSuQmCC</image>
+    <Items>
+      <URLName>/Reports/Forms/RateListReport.aspx</URLName>
+      <DispName>RateList</DispName>
+      <MenuID>7</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/OPD/Patientchecklist.aspx</URLName>
+      <DispName>CheckList</DispName>
+      <MenuID>7</MenuID>
+    </Items>
+  </Menu>
+  <Menu>
+    <ID>124</ID>
+    <MenuName>Sample Processing</MenuName>
+    <image>data:image/jpg;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAUCAIAAAAGHlpnAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAr5JREFUOE+Nk19MUmEYxj8vYq4pmcuSg3AO5wgYf3TDG9eNZa0r686tu7ZaXbTZ1mquORXYmDUWiYuBMHM5Bl5ATAozRIc1++NNyBasO2vN7vQcgSCQA72MRgwUPZffeX/P877v830of4QvEon09vYGAoF9a9ERFPIej4fH43V2drrd7ur6I0mwLDs2NoZhGEVR09PTFSqHS1it1rW1NcD0er1AIBAKhQaDoVzlEInJyUkYQaVSbW1tAWY2mwmC4PP5Op0ul8sVhWpJmEwm8AQGyHQ6XQTsdrtYLAZdGC2VStWSAAx4HMdtNlvF8D6fT6FQ1NfXOxyOAyVgfoDhs1gs5bzT6ZyamoIT2M7dwcFo5Ov+EgfxLpcLEoFcgsFgrXVCZiRBnBUJX1hM5XXAwwpgkRqNJh6Pw691Jjv0rWoXMzMzlIggcfz2uDGUyG/EchsxNpTM210eqVQC/lqtthjEjxR7ZpnhLtHbmdz/RGZnZ9tJkUSEt9w3NqymOEuxY36Gs5o5/dhFSDraMEytVhf5bC4/EEqc/xxvCjDPf6b/STjn5sTAE8BPoOUkeruL3tBoJX380UuyQy7EChGWLsIneo+7xDh+ZZqXmb71REHC6/VShLDg/8BY4P27dYs0Cma4+nmpTE5gvJGREbjjpdUYN/+gBbotWCg7EWBQOBzukssofmvL0DO0UsY/eSWVK6p5EDJ+T6PXNFrYQeAEzV7t76dI8tRDM1pJlfwbDT6pQoljvOHh4XL/YiPRRLYZzL07aH6752MMdeBt5MUrdf4Y8seL/Tc+XZAougisFfhsNlv9uuHkA713I/z7XjS5mWTRnVs3BfIujjOK3ufRO7ZhYhF4vCZfIYrgCZ7rVjX1XGocd5/U2gmZEue1jo6OHuRf3VQhkS+h0PVrA90yqbKdvNx3wWqzlfLbd4qKw7/pHdcXZRpXRAAAAABJRU5ErkJggg==</image>
+    <Items>
+      <URLName>/Design/Lab/MachineResultEntry_Radiology.aspx</URLName>
+      <DispName>Result Entry</DispName>
+      <MenuID>124</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Lab/MachineResultEntryRadiology.aspx</URLName>
+      <DispName>MachineResultEntryRadiologyNew</DispName>
+      <MenuID>124</MenuID>
+    </Items>
+  </Menu>
+</NewDataSet>

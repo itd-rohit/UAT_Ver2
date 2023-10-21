@@ -1,0 +1,51 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Menu>
+    <ID>84</ID>
+    <MenuName>Accession</MenuName>
+    <Items>
+      <URLName>/Design/Lab/Lab_PrescriptionOPD.aspx</URLName>
+      <DispName>Work Order</DispName>
+      <MenuID>84</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Lab/Lab_PrescriptionOPDEditInfo.aspx</URLName>
+      <DispName>Edit Info</DispName>
+      <MenuID>84</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Lab/Lab_PrescriptionOPDEdit.aspx</URLName>
+      <DispName>Work Order Edit</DispName>
+      <MenuID>84</MenuID>
+    </Items>
+  </Menu>
+  <Menu>
+    <ID>121</ID>
+    <MenuName>Sample Management</MenuName>
+    <Items>
+      <URLName>/Design/Lab/SampleCollection.aspx</URLName>
+      <DispName>Sample  Collection</DispName>
+      <MenuID>121</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Lab/SendSample.aspx</URLName>
+      <DispName>Sample Transfer</DispName>
+      <MenuID>121</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Lab/LogisticSampleReceive.aspx</URLName>
+      <DispName>Logistic Receive</DispName>
+      <MenuID>121</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Lab/SRA.aspx</URLName>
+      <DispName>Sample Receive Area</DispName>
+      <MenuID>121</MenuID>
+    </Items>
+    <Items>
+      <URLName>/Design/Lab/SampleReceiveDepartment.aspx</URLName>
+      <DispName>Department Receive</DispName>
+      <MenuID>121</MenuID>
+    </Items>
+  </Menu>
+</NewDataSet>

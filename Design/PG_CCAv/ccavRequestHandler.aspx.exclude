@@ -1,0 +1,21 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="ccavRequestHandler.aspx.cs" Inherits="Design_PGCCAv_ccavRequestHandler" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+</head>
+<body>
+     <%--<form id="nonseamless" method="post" name="redirect" action=" https://test.ccavenue.com/transaction/transaction.do?command=initiateTransaction"> --%>
+    <form id="nonseamless" method="post" name="redirect" action="https://test.ccavenue.com/transaction/transaction.do?command=initiateTransaction">
+      
+        <input type="hidden" id="encRequest" name="encRequest" value="<%=strEncRequest%>"/>
+        <input type="hidden" name="access_code" id="Hidden1" value="<%=strAccessCode%>"/>
+    </form>
+    <%--<form id="nonseamless1" method="post" name="cancel" action="https://test.ccavenue.com/transaction/transaction.do?command=initiateTransaction">--%>
+
+    <%--</form>--%>
+    <script type="text/javascript" language="javascript">document.redirect.submit();</script>
+</body>
+</html>

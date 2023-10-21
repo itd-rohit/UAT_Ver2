@@ -1,0 +1,7 @@
+7/21/2021 5:35:03 PM     7/21/2021 5:35:03 PM
+PF Ravi
+DL INFOSYSTEMS
+DF ITDOSE
+WinMacData
+
+7/21/2021 5:35:19 PM     Unable to connect to any of the specified MySQL hosts.

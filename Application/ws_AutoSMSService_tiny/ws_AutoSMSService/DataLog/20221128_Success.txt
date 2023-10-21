@@ -1,0 +1,1 @@
+https://103.229.250.200/smpp/sendsms?username=idose&password=idose007&to=913232323232&from=ITDOSE&text=Dear DEMO,ITDose Infosystems Pvt Ltd. is pleased to serve you, Now You can view your reports on your smart phone anytime, anywhere, just click on http://9url.in/JW9LTC958Y ITDose Infosystems Pvt Ltd.  28-11-2022 15:20:52

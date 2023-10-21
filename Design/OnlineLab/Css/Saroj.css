@@ -1,0 +1,127 @@
+.mm {
+	font-family: Arial;
+	font-size: 11px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: capitalize;
+	color: #990000;
+}
+
+.onlinelabheading{
+	font-family: zurich BT;
+	font-size: 22px;
+	color: #0c86b9;
+	padding-bottom:5px;
+	padding-top:8px;
+	padding-right:5px;
+	padding-left:5px;
+	font-weight:normal;
+	text-transform:capitalize;
+	
+}
+.onlineslogantext{
+	font-family: "zurich LT BT;"
+	font-size: 14px;
+	color: #9a8907;
+	font-weight:normal;
+	text-transform:capitalize;
+	
+}
+.onlineslogantext1{
+	font-family: "zurich LT BT";
+	font-size: 14px;
+	color: #035c7f;
+	font-weight:normal;
+	text-transform:capitalize;
+	
+}
+
+
+.labonlineLoginText{font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:11px;
+font-weight:normal;
+color:#136a8f;
+text-transform:capitalize;
+}
+.onlineLoginText1{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:11px;
+font-weight:normal;
+color:#000000;
+text-transform:capitalize;
+}
+
+.onlinefooterline {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #1194cb;
+	line-height:14px;
+	text-transform:capitalize;
+	
+}
+
+.onlineinfotext {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #1194cb;
+	line-height:14px;
+	text-transform:capitalize;
+	}
+	.onlineinfotext1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #fe9601;
+	line-height:14px;
+	text-transform:capitalize;
+	}
+.onlinegridheader1
+{
+font-family: "Arus BT";
+font-size:14px;
+font-weight:normal;
+color:#FFFFFF;
+background-color:#03648d;
+line-height:25px;
+}
+
+.onlinegridsub1
+{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:11px;
+font-weight:normal;
+color:#03648d;
+background-color:#f3f3f3;
+line-height:25px;
+}
+
+.onlinegridheader2
+{
+font-family: "Arus BT";
+font-size:14px;
+font-weight:normal;
+color:#434545;
+background-color:#98ddfa;
+line-height:25px;
+}
+
+.onlinegridsub2
+{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:11px;
+font-weight:normal;
+color:#434545;
+background-color:#f3f3f3;
+line-height:25px;
+}
+.onlinebutton{
+	BORDER-RIGHT: #d6e9dc 1px solid; BORDER-TOP: #d6e9dc 1px solid; FONT-WEIGHT: bold; FONT-SIZE: 10px; BORDER-LEFT: #608c6d 1px solid; COLOR: #ffffff; BORDER-BOTTOM: #608c6d 1px solid; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; HEIGHT: 20px; width: 130px;BACKGROUND-COLOR: #03648d}
+	.onlinebutton1{
+	BORDER-RIGHT: #d6e9dc 1px solid; BORDER-TOP: #d6e9dc 1px solid; FONT-WEIGHT: bold; FONT-SIZE: 10px; BORDER-LEFT: #608c6d 1px solid; COLOR: #ffffff; BORDER-BOTTOM: #608c6d 1px solid; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; HEIGHT: 20px; width: 60px;BACKGROUND-COLOR: #03648d}
+.onlineborder{
+	BORDER-RIGHT: #ff8605 1px dashed; BORDER-TOP: #ff8605 1px dashed; BORDER-LEFT: #ff8605 1px dashed; BORDER-BOTTOM: #ff8605 1px dashed;}
+.labonlineloginbox {
+	BORDER-RIGHT: #1194cb 1px solid; BORDER-TOP: #1194cb 1px solid; FONT-WEIGHT: normal; FONT-SIZE: 11px; PADDING-BOTTOM: 1px; BORDER-LEFT: #1194cb 1px solid; COLOR: #262626; PADDING-TOP: 1px; BORDER-BOTTOM: #1194cb 1px solid; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; HEIGHT: 18px; width:160px; BACKGROUND-COLOR:#f9f9f9; }
+	.labonlineloginbox1 {
+	BORDER-RIGHT: #1194cb 1px solid; BORDER-TOP: #1194cb 1px solid; FONT-WEIGHT: normal; FONT-SIZE: 11px; PADDING-BOTTOM: 1px; BORDER-LEFT: #1194cb 1px solid; COLOR: #262626; PADDING-TOP: 1px; BORDER-BOTTOM: #1194cb 1px solid; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; HEIGHT: 18px; width:300px; BACKGROUND-COLOR:#f9f9f9; }

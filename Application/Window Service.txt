@@ -1,0 +1,9 @@
+"C:\Windows\Microsoft.NET\Framework\v2.0.50727\InstallUtil.exe" /u "E:\Emailing Application\ws_AutoTATReport\ws_AutoEmail_TatReport.exe"
+
+"C:\Windows\Microsoft.NET\Framework\v2.0.50727\InstallUtil.exe" "E:\Emailing Application\ws_AutoTATReport\ws_AutoEmail_TatReport.exe"
+
+
+"C:\Windows\Microsoft.NET\Framework\v4.0.30319\InstallUtil.exe" "D:\ITDose\ThyroVision_Live\Thyrovision\Application\ws_AutoMailService\ws_AutoMailService.exe"
+
+
+"C:\Windows\Microsoft.NET\Framework\v4.0.30319\InstallUtil.exe" /u "E:\MDRC\MDRC Live Code\ItdoseLisnew\ItdoseLisnew\MDRC\Application\ws_HL7Interface\ws_ZohoSync.exe" 

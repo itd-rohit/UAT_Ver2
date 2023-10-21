@@ -1,0 +1,86 @@
+﻿using CCA.Util;
+using System;
+using System.Collections.Generic;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+
+public partial class Design_PGCCAv_ccavRequestHandler : System.Web.UI.Page
+{
+    CCACrypto ccaCrypto = new CCACrypto();
+
+    string workingKey = "3ECC8C2E4C7A0AEB5A22BCB9BA7A17E3";//put in the 32bit alpha numeric key in the quotes provided here		
+    string ccaRequest = "";
+    public string strEncRequest = "";
+    public string strAccessCode = "AVPO71JB48BL37OPLB";//  put the access key in the quotes provided here.		
+    //protected void Page_Load(object sender, EventArgs e)
+    //{
+    //    if (!IsPostBack)
+    //    {
+    //        foreach (string name in Request.Form)
+    //        {
+    //            if (name != null)
+    //            {
+    //                if (!name.StartsWith("_"))
+    //                {
+    //                    ccaRequest = ccaRequest + name + "=" + Request.Form[name] + "&";
+    //                }
+    //            }
+    //        }
+    //        strEncRequest = ccaCrypto.Encrypt(ccaRequest, workingKey);
+
+    //        //Response.Write(ccaRequest);
+    //        //Response.Write("</br>");
+
+    //        //Response.Write(workingKey);
+    //        //Response.Write("</br>");
+
+    //        //Response.Write(strEncRequest);
+    //        //Response.Write("</br>");
+    //        //Response.End();
+    //    }
+    //}
+    protected void Page_Load(object sender, EventArgs e)
+    {
+
+        if (!IsPostBack)
+        {
+
+
+            if (Util.GetFloat(Session["NetBal"]) != Util.GetFloat(Request.Form["amount"]))
+            {
+                Response.Redirect("ErrorPage.aspx?C=1");
+            }
+            if (Util.GetFloat(Session["OrderId"]) != Util.GetFloat(Request.Form["order_id"]))
+            {
+                Response.Redirect("ErrorPage.aspx?C=2");
+            }
+
+            foreach (string name in Request.Form)
+            {
+                if (name != null)
+                {
+                    if (!name.StartsWith("_"))
+                    {
+                        ccaRequest = ccaRequest + name + "=" + Request.Form[name] + "&";
+                        //Response.Write(name + "=" + Request.Form[name]);
+                        //Response.Write("</br>");
+                    }
+                }
+            }
+
+            strEncRequest = ccaCrypto.Encrypt(ccaRequest, workingKey);
+            // System.IO.File.WriteAllText(@"C:\BeforEncrypt.txt", ccaRequest.ToString());
+            // System.IO.File.WriteAllText(@"C:\afterEncrypt.txt", strEncRequest.ToString());
+            //Response.Write(ccaRequest);
+            //Response.Write("</br>");
+
+            //Response.Write(workingKey);
+            //Response.Write("</br>");
+
+            //Response.Write(strEncRequest);
+            ///Response.Write("</br>");
+            //Response.End();
+        }
+    }
+}

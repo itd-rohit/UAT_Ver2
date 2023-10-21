@@ -1,0 +1,1 @@
+7/21/2021 5:35:18 PM      Syncmac_data Error:Unable to connect to any of the specified MySQL hosts.
